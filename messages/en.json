@@ -1,0 +1,2660 @@
+{
+  "LoginPage": {
+    "login": {
+      "title": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Sign In",
+      "logoAlt": "Ninja Card logo"
+    },
+    "placeholders": {
+      "email": "Enter email",
+      "password": "Enter password"
+    },
+    "alerts": {
+      "successTitle": "Success",
+      "successMessage": "Login successful",
+      "errorTitle": "Error",
+      "errorMessage": "Login failed"
+    },
+    "errors": {
+      "emailInvalid": "Invalid email format",
+      "emailRequired": "Email is required",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordRequired": "Password is required"
+    },
+    "a11y": {
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    }
+  },
+  "HeroPage": {
+    "hero": {
+      "titlePrefix": "ONE",
+      "titleHighlight": "DIGITAL PROFILE",
+      "subtitlePrefix": "Stop losing contacts. Share your profile with",
+      "subtitleHighlight": "an NFC card, QR code, share button or Google Wallet",
+      "subtitleSuffix": " in seconds.",
+      "buyNow": "START FREE",
+      "learnMore": "HOW IT WORKS"
+    }
+  },
+  "AboutPage": {
+    "header": {
+      "badge": "How it works",
+      "title": "One Digital Profile for All Your Contacts",
+      "subtitle": "Create once. Share everywhere. One tap is all it takes."
+    },
+    "section": {
+      "titlePrefix": "Your digital profile with",
+      "titleHighlight": "Ninja Card",
+      "p1": "Ninja Card gives you one digital profile where all your contact details live. Everything is always up to date, without reprinting business cards or sending links manually.",
+      "p2Prefix": "You can share your profile using",
+      "p2Suffix": "NFC card, QR code, share button, or Google Wallet. One tap or one click is enough to save your contact instantly."
+    },
+    "features": {
+      "instantShare": "Share in one tap",
+      "customDesign": "Personalized digital profile",
+      "contactless": "NFC and QR access",
+      "sixtyLinks": "Multiple links and contact details",
+      "allInOne": "Everything in one place",
+      "alwaysActive": "Always up to date"
+    },
+    "cta": {
+      "getCard": "START FOR FREE"
+    },
+    "alt": {
+      "profileScreenshot": "Digital contact profile preview"
+    }
+  },
+  "ProductsPage": {
+    "header": {
+      "badge": "Products",
+      "title": "Discover our range of NFC products",
+      "subtitle": "We offer a variety of NFC solutions tailored to your specific needs. Browse our collection and find the perfect fit for your business."
+    },
+    "cta": {
+      "learnMore": "LEARN MORE"
+    },
+    "sr": {
+      "view": "VIEW {name}"
+    },
+    "items": {
+      "cards": {
+        "name": "Smart Business Cards",
+        "description": "Personalized NFC business cards for modern contact sharing."
+      },
+      "googleReviews": {
+        "name": "Reviews",
+        "description": "An easy way to collect Google, Tripadvisor and other reviews."
+      },
+      "stickers": {
+        "name": "Stickers",
+        "description": "An easy way to collect Google reviews."
+      }
+    }
+  },
+  "ShowcasePage": {
+    "header": {
+      "badge": "Clients",
+      "title": "Voices of our clients",
+      "subtitle": "Hear what our satisfied customers are saying about our products and services."
+    },
+    "alt": {
+      "showcase": "Showcase of Ninja Card"
+    }
+  },
+  "ContactPage": {
+    "header": {
+      "badge": "Contact us",
+      "title": "Get in touch with our team",
+      "subtitle": "We’re here to help. Reach out with any questions or suggestions."
+    },
+    "form": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Your email",
+      "phoneLabel": "Phone number",
+      "phonePlaceholder": "Your phone number",
+      "subjectLabel": "Message",
+      "subjectPlaceholder": "Your message",
+      "submit": "Send",
+      "reset": "Reset"
+    },
+    "privacy": {
+      "textPrefix": "By submitting this form you agree that your personal data will be used to process your inquiry, in accordance with our",
+      "policy": "Privacy Policy",
+      "textSuffix": "."
+    },
+    "alerts": {
+      "privacyRequired": "You must accept the privacy policy.",
+      "success": "Your message has been sent successfully!",
+      "error": "We couldn’t send your message. Please try again."
+    }
+  },
+  "Navbar": {
+    "logoAlt": "logo",
+    "aria": {
+      "header": "Primary navigation",
+      "toggleMenu": "Toggle menu",
+      "closeMenu": "Close menu",
+      "mainNav": "Main menu"
+    },
+    "menu": {
+      "home": "Home",
+      "products": "Products",
+      "plans": "Plans",
+      "cards": "Designs",
+      "reviews": "Reviews",
+      "all": "All",
+      "features": "Features",
+      "faq": "FAQ",
+      "contact": "Contact",
+      "profile": "Profile",
+      "analysis": "Analysis",
+      "logout": "Log out",
+      "login": "Log in",
+      "cart": "Cart"
+    },
+    "alt": {
+      "userAvatar": "User avatar"
+    }
+  },
+  "AllProductsPage": {
+    "header": {
+      "pageInformation": "All Products",
+      "textOne": "NFC Business Cards",
+      "textTwo": "Google Reviews",
+      "textThree": "TripAdvisor Reviews"
+    },
+    "states": {
+      "loadingAlt": "Loading...",
+      "fetchError": "No such products have been added!",
+      "noProductsOfType": "There are no products of this type."
+    }
+  },
+  "ProductList": {
+    "aria": {
+      "grid": "Product list"
+    }
+  },
+  "ProductItem": {
+    "currency": "BGN",
+    "cta": {
+      "learnMore": "Learn more"
+    },
+    "alt": {
+      "productImage": "Image of {name}"
+    }
+  },
+  "NfcCardsPage": {
+    "header": {
+      "pageInformation": "Smart Cards",
+      "textOne": "NFC Business Cards",
+      "textTwo": "Custom design",
+      "textThree": "Business contacts"
+    },
+    "states": {
+      "loadingAlt": "Loading...",
+      "fetchError": "No such products have been added!",
+      "noProductsOfType": "There are no products of this type."
+    }
+  },
+  "Features": {
+    "header": {
+      "pageInformation": "Features",
+      "textOne": "Sharing",
+      "textTwo": "Connecting",
+      "textThree": "Success"
+    },
+    "features": {
+      "header1": "NFC & QR Code",
+      "mainHeader1": "Sharing Contacts",
+      "description1": "With NinjaCard's NFC digital business card, sharing your contacts is seamless. Just tap your NinjaCard NFC card to another NFC-enabled device, and your digital profile will be shared instantly.",
+      "buttonText1": "Sample Profile",
+      "header2": "Lead Generation",
+      "mainHeader2": "Capture New Contacts",
+      "description2": "Each NinjaCard NFC digital business card has a powerful tool for generating new contacts via the 'Swap Contacts' button. This feature allows you to easily capture new contacts, making it the perfect tool for expanding your network.",
+      "buttonText2": "",
+      "header3": "Easy Updates",
+      "mainHeader3": "Update Your Information in Real Time",
+      "description3": "With NinjaCard, you can update your contact information at any time, ensuring that your network always has the most up-to-date information. Just tap your phone to share the updated profile instantly.",
+      "buttonText3": "",
+      "header4": "QR Code",
+      "mainHeader4": "Save and Share QR",
+      "description4": "The Ninja card offers the ability to download a QR code for your smart business card, allowing easy sharing and accessibility of your information. This feature streamlines the process of clients and users accessing your information and provides a seamless user experience.",
+      "buttonText4": "",
+      "header5": "Business Card Colors",
+      "mainHeader5": "Personalize Your Profile",
+      "description5": "Your smart business card profile offers customization options that allow you to change colors. This flexibility ensures that your business card reflects your brand identity and stands out from the rest. With Ninja Card, you can create a unique and professional profile for your business card.",
+      "buttonText5": "",
+      "header6": "Statistics",
+      "mainHeader6": "Profile Analytics",
+      "description6": "Track the performance of your NinjaCard in real time! Get detailed statistics on profile visits, contact downloads, and client engagement.\nSee how many people have viewed your profile, downloaded your contacts, or clicked on your social media links. With NinjaCard's analytics, you're always informed and can improve the effectiveness of your digital business card.",
+      "buttonText6": ""
+    }
+  },
+  "FAQ": {
+    "categories": [
+      {
+        "category": "General Information",
+        "items": [
+          {
+            "question": "What is a digital profile?",
+            "answer": "A digital profile is a modern way to share your data and contacts easily, quickly, and without physical business cards. With NinjaCard, you share your profile via NFC, QR code, or link, which can be updated at any time."
+          },
+          {
+            "question": "How do I share my profile?",
+            "answer": "You can share your digital profile with one tap using NFC, scan a QR code, use the share button, or Google Wallet. Just choose the most convenient method!"
+          }
+        ]
+      },
+      {
+        "category": "Personalization",
+        "items": [
+          {
+            "question": "Can I personalize my profile?",
+            "answer": "Yes! You can personalize your digital profile with your logo, color scheme, social links, and other data you wish to share."
+          },
+          {
+            "question": "How do I update my profile information?",
+            "answer": "You can easily update your information through our online platform. Any changes are reflected instantly, and you can share them with one tap."
+          }
+        ]
+      },
+      {
+        "category": "Security",
+        "items": [
+          {
+            "question": "How secure is my data?",
+            "answer": "Your data is stored in a secure environment. The NFC card does not store any data-it simply triggers a redirect to a secure URL where your information is safely hosted."
+          }
+        ]
+      },
+      {
+        "category": "Pro Plan and Advanced Features",
+        "items": [
+          {
+            "question": "What features does the Pro plan offer?",
+            "answer": "The Pro plan includes advanced features like lead generation, detailed profile visit statistics, and priority support. It's perfect for professionals looking to optimize their networking."
+          },
+          {
+            "question": "How do I start with the Pro plan?",
+            "answer": "You can start with a 30-day free trial of the Pro plan. After that, you'll have access to all the advanced features to help you expand your network and analyze engagement."
+          }
+        ]
+      },
+      {
+        "category": "Compatibility",
+        "items": [
+          {
+            "question": "Does the digital profile work on all devices?",
+            "answer": "Yes! The digital profile is fully compatible with all modern smartphones that support NFC or QR code scanning. You can share your profile anywhere, with any device."
+          }
+        ]
+      },
+      {
+        "category": "Support",
+        "items": [
+          {
+            "question": "How can I contact support?",
+            "answer": "You can reach out to us via email or through the contact form on the website. Our team is available to answer your questions and assist with any issues."
+          }
+        ]
+      }
+    ]
+  },
+  "FAQPage": {
+    "header": {
+      "pageInformation": "Frequently Asked Questions",
+      "textOne": "How it works?",
+      "textTwo": "The Card",
+      "textThree": "Support"
+    },
+    "intro": "Got questions? We’ve got answers. Browse the most frequently asked questions below or use the search bar to find what you’re looking for.",
+    "search": {
+      "placeholder": "Search for an answer...",
+      "ariaLabel": "FAQ search input"
+    },
+    "modal": {
+      "label": "Video modal",
+      "close": "Close video"
+    },
+    "videos": [
+      {
+        "imagePath": "/features/first-steps.png",
+        "headerText": "What to do when you receive your Ninja Card?",
+        "paragraphText": "Watch the first steps to activate and get the most out of your Ninja Card smart business card.",
+        "url": "https://www.youtube.com/embed/KIJho0mfSIU?si=vgPWvP4JVdnAnVqm"
+      },
+      {
+        "imagePath": "/features/02.png",
+        "headerText": "Ninja Card – How to use our NFC smart business cards",
+        "paragraphText": "Here’s a short video showing how to use our smart business cards.",
+        "url": "https://www.youtube.com/embed/vlpRHfQ-W3E?si=MRGOS-OEeyrw4Ox9"
+      }
+    ]
+  },
+  "FAQVideos": {
+    "cta": "Watch Video",
+    "alt": "Ninja Card video"
+  },
+  "Contact": {
+    "pageInformation": "Contact",
+    "textOne": "Feedback",
+    "textTwo": "24/7 Support",
+    "textThree": "Questions",
+    "left": {
+      "sectionTitle": "Contact",
+      "header": "Get in Touch <span class='text-orange'>Now</span>",
+      "description": "Send us your message and receive a reply within 24 hours.",
+      "phone1": "+359 88 904 4614",
+      "email": "ninjacardnfc@gmail.com",
+      "workingHours": "24/7"
+    },
+    "form": {
+      "labels": {
+        "name": "Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "subject": "Your Message",
+        "privacy": "By submitting the form, you agree that your personal data will be used for processing your request, according to our <a href='/privacy/PrivacyPolicy' class='text-blue-400 underline'>Privacy Policy</a>."
+      },
+      "submit": "Send Message",
+      "errors": {
+        "privacyRequired": "You must accept the privacy policy.",
+        "sendFailed": "Message sending failed. Please try again."
+      },
+      "success": "Your message has been sent successfully!"
+    }
+  },
+  "Footer": {
+    "rights": "All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "cookiesPolicy": "Cookies Policy"
+  },
+  "ProfileTabs": {
+    "title": "Profile Management",
+    "subtitle": "Manage your profile and settings easily.",
+    "moreOptions": "Set up your profile and explore more options",
+    "greeting": "Hello",
+    "tabs": {
+      "delete": {
+        "label": "Delete Profile",
+        "desc": "Permanently delete your profile and all associated data."
+      },
+      "changePassword": {
+        "label": "Change Password",
+        "desc": "Update your current password."
+      },
+      "changeEmail": {
+        "label": "Change Email",
+        "desc": "Update your email address."
+      },
+      "changeAddress": {
+        "label": "Change Address",
+        "desc": "Update your home address."
+      },
+      "changeImage": {
+        "label": "Change Profile Picture",
+        "desc": "Change your profile image."
+      },
+      "info": {
+        "label": "Personal Information",
+        "desc": "Еdit your personal information."
+      },
+      "links": {
+        "label": "Important Links",
+        "desc": "Manage your important links."
+      },
+      "preview": {
+        "label": "Profile Preview",
+        "desc": "Preview how your profile looks."
+      },
+      "businessCard": {
+        "label": "Business Profile",
+        "desc": "View your digital profile."
+      },
+      "qr": {
+        "label": "Your QR Code",
+        "desc": "Generate and share your QR code."
+      },
+      "features": {
+        "label": "Download Profile",
+        "desc": "Enable or disable the option to download your profile."
+      },
+      "analyse": {
+        "label": "Analyse",
+        "desc": "View your profile's analysis."
+      },
+      "video": {
+        "label": "Video Clip",
+        "desc": "Add or view your video clip."
+      },
+      "language": {
+        "label": "Profile Language",
+        "desc": "Select your profile language."
+      },
+      "help": {
+        "label": "Help & Instructions",
+        "desc": "Find help and guides."
+      },
+      "clients": {
+        "label": "Potential Clients",
+        "desc": "View your potential clients."
+      },
+      "cover": {
+        "label": "Change Cover Photo",
+        "desc": "Update your profile's cover photo."
+      },
+      "billing": {
+        "label": "Billing & Payments",
+        "desc": "Manage your billing and payments."
+      },
+      "optimize": {
+        "label": "AI - Profile Optimization",
+        "desc": "Get recommendations to optimize your profile."
+      },
+      "googleWallet": {
+        "label": "Google Wallet",
+        "desc": "Add your profile to your Google Wallet."
+      },
+      "slug": {
+        "label": "Personal link",
+        "desc": "Set a short URL for your digital card."
+      }
+    },
+    "needId": "Profile ID is required"
+  },
+  "ChangeAddress": {
+    "title": "Change Address",
+    "subtitle": "Update your address for better service.",
+    "labels": {
+      "street1": "Street 1",
+      "street2": "Street 2",
+      "zipCode": "ZIP Code",
+      "city": "City",
+      "state": "State/Region",
+      "country": "Country"
+    },
+    "placeholders": {
+      "street1": "Enter street 1",
+      "street2": "Enter street 2",
+      "zipCode": "Enter ZIP code",
+      "city": "Enter city",
+      "state": "Enter state/region",
+      "country": "Enter country"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "saving": "Saving..."
+    },
+    "alerts": {
+      "success": "Success",
+      "error": "Error",
+      "warning": "Warning",
+      "notAuthenticated": "User is not authenticated",
+      "updateSuccess": "Address updated successfully",
+      "updateFailed": "Failed to update profile"
+    },
+    "a11y": {
+      "loading": "Loading…"
+    }
+  },
+  "ChangeEmail": {
+    "title": "Change Email",
+    "subtitle": "Update your email address for better communication.",
+    "labels": {
+      "email": "New email",
+      "workEmail": "New work email (optional)"
+    },
+    "placeholders": {
+      "email": "Enter your new email",
+      "workEmail": "Enter your new work email"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "saving": "Saving..."
+    },
+    "alerts": {
+      "success": "Success",
+      "error": "Error",
+      "warning": "Warning",
+      "notAuthenticated": "User is not authenticated",
+      "updateSuccess": "Profile updated successfully",
+      "updateFailed": "Failed to update profile",
+      "noChanges": "You need to enter new values"
+    },
+    "errors": {
+      "emailInvalid": "Invalid email format",
+      "emailRequired": "Email is required"
+    },
+    "a11y": {
+      "loading": "Loading…"
+    }
+  },
+  "ChangePassword": {
+    "title": "Change Password",
+    "subtitle": "Update your password for better security.",
+    "labels": {
+      "password": "Enter new password",
+      "confirmPassword": "Confirm password"
+    },
+    "placeholders": {
+      "password": "Enter your new password",
+      "confirmPassword": "Confirm your new password"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "saving": "Saving..."
+    },
+    "alerts": {
+      "success": "Success",
+      "error": "Error",
+      "warning": "Warning",
+      "notAuthenticated": "User is not authenticated",
+      "updateSuccess": "Profile updated successfully",
+      "updateFailed": "Failed to update profile"
+    },
+    "errors": {
+      "required": "Password is required",
+      "confirmRequired": "Password confirmation is required",
+      "min": "Password must be at least 8 characters",
+      "upper": "Password must contain at least one uppercase letter",
+      "lower": "Password must contain at least one lowercase letter",
+      "digit": "Password must contain at least one digit",
+      "special": "Password must contain at least one special character",
+      "match": "Passwords must match"
+    },
+    "a11y": {
+      "loading": "Loading…"
+    }
+  },
+  "ChangeImage": {
+    "title": "Change Profile Picture",
+    "subtitle": "Update your profile picture to personalize your account.",
+    "labels": {
+      "photo": "Profile photo"
+    },
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "saving": "Saving...",
+      "remove": "Remove photo"
+    },
+    "alerts": {
+      "success": "Success",
+      "error": "Error",
+      "warning": "Warning",
+      "notAuthenticated": "User is not authenticated.",
+      "selectAndCrop": "Please select and crop an image before uploading.",
+      "uploadSuccess": "Image uploaded successfully.",
+      "uploadFailed": "Failed to upload image.",
+      "removedSuccess": "Image removed successfully.",
+      "updateFailed": "Failed to update profile.",
+      "unexpected": "An unexpected error occurred. Please try again."
+    },
+    "errors": {
+      "fileTooLarge": "Image exceeds the {size} limit."
+    },
+    "hints": {
+      "maxSize": "Maximum file size: {size}."
+    },
+    "preview": {
+      "title": "Cropped image preview",
+      "alt": "Crop preview"
+    },
+    "a11y": {
+      "currentAvatar": "Current avatar of {name}",
+      "user": "user",
+      "fileInput": "Upload a new profile photo",
+      "cropPreview": "Image to crop"
+    }
+  },
+  "ProfileInformation": {
+    "title": "Profile Information",
+    "subtitle": "Edit your personal details and address.",
+    "sections": {
+      "profile": "Personal Information",
+      "address": "Address"
+    },
+    "placeholders": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "name": "Full name",
+      "company": "Company",
+      "position": "Position",
+      "phone1": "Phone 1",
+      "phone2": "Phone 2",
+      "bio": "Short bio / Description",
+      "street1": "Street address",
+      "street2": "Address line 2",
+      "zipCode": "ZIP / Postal code",
+      "city": "City",
+      "state": "State / Region",
+      "country": "Country"
+    },
+    "buttons": {
+      "saveInfo": "Save information",
+      "saveAddress": "Save address",
+      "saving": "Saving...",
+      "back": "Back"
+    },
+    "alerts": {
+      "success": "Success",
+      "error": "Error",
+      "successUpdate": "Profile information updated successfully.",
+      "addressSaved": "Address saved successfully.",
+      "errorUpdate": "Something went wrong. Please try again."
+    }
+  },
+  "ImportantLinks": {
+    "title": "Manage Digital Links",
+    "subtitle": "Add or update your social links for easy access.",
+    "buttons": {
+      "back": "Back",
+      "save": "Save",
+      "saving": "Saving...",
+      "upgradePlan": "Upgrade Plan"
+    },
+    "alerts": {
+      "unauthenticated": "User is not authenticated",
+      "invalidUrl": "Invalid URL for field:",
+      "errorUpdate": "Failed to update profile links",
+      "successUpdate": "Links updated successfully",
+      "errorDeletePdf": "Failed to delete PDF file",
+      "successDeletePdf": "PDF file deleted successfully",
+      "unknownError": "An unexpected error occurred. Please try again.",
+      "upgradePrompt": "For more links, please upgrade your plan.",
+      "currentPlanLinks": "You have reached the maximum number of links for your current plan. Please upgrade to add more links."
+    }
+  },
+  "ProfileQR": {
+    "noQr": "No QR code available.",
+    "heading": "Profile QR Code",
+    "subtitle": "Download or share your QR code to easily access your digital business card.",
+    "shared": "Shared!",
+    "downloaded": "Downloaded!",
+    "scanHint": "Scan to open profile",
+    "alt": {
+      "profileImage": "{{name}}'s profile image",
+      "qr": "QR code"
+    },
+    "actions": {
+      "download": "Download QR code",
+      "share": "Share QR code",
+      "back": "Back",
+      "generate": "Generate QR code"
+    },
+    "share": {
+      "title": "QR Code",
+      "text": "Scan this QR code to get {{name}}'s information.",
+      "unsupported": "Your device does not support file sharing via this feature."
+    }
+  },
+  "CardSettings": {
+    "heading": "Card Settings",
+    "subtitle": "Choose if your contacts will be downloaded when profile is loaded or manually.",
+    "options": {
+      "directDownload": "Direct contact download",
+      "directOn": "Contacts will be downloaded automatically, then your profile will be displayed.",
+      "directOff": "Your profile will be displayed, and contacts can be downloaded manually."
+    },
+    "info": {
+      "title": "What will happen:",
+      "direct": {
+        "1": "Your contacts will be downloaded automatically upon scanning.",
+        "2": "After download, your profile will appear on the screen.",
+        "3": "This setting is suitable for quick contact sharing."
+      },
+      "indirect": {
+        "1": "Your profile will be displayed when scanned.",
+        "2": "Contacts can be downloaded manually from the profile.",
+        "3": "Suitable for more interactive situations."
+      }
+    },
+    "errors": {
+      "loadUser": "Failed to load user data.",
+      "noUser": "Failed: User not found.",
+      "updateFail": "Failed to update profile."
+    },
+    "messages": {
+      "updated": "Setting updated successfully."
+    },
+    "alert": {
+      "errorTitle": "Error"
+    },
+    "keywords": {
+      "success": "Success"
+    },
+    "loading": {
+      "alt": "Loading...",
+      "text": "Updating setting..."
+    },
+    "actions": {
+      "back": "Back"
+    }
+  },
+  "VideoUpload": {
+    "subtitle": "Profile Settings",
+    "title": "Video Bio",
+    "description": "A short video that plays on your digital card. 15-30 seconds is ideal.",
+    "currentVideo": "Current video",
+    "hint": "MP4, MOV or WebM · Max 100MB · 15-30 sec recommended",
+    "buttons": {
+      "upload": "Upload video",
+      "replace": "Replace video",
+      "uploading": "Uploading...",
+      "remove": "Remove video",
+      "removing": "Removing..."
+    },
+    "alerts": {
+      "uploadSuccess": "Video uploaded successfully!",
+      "uploadFail": "Failed to save video.",
+      "uploadError": "Upload error. Please try again.",
+      "removeSuccess": "Video removed successfully.",
+      "removeFail": "Failed to remove video.",
+      "unexpected": "Something went wrong. Please try again."
+    }
+  },
+  "LanguageSwitcher": {
+    "title": "Choose a language for your card",
+    "subtitle": "Select the language in which your business profile will be displayed.",
+    "bulgarian": "Bulgarian",
+    "english": "English",
+    "buttons": {
+      "back": "Back"
+    },
+    "loading": "Loading...",
+    "alerts": {
+      "errorTitle": "Error"
+    },
+    "errors": {
+      "fetchFail": "Failed to load user data.",
+      "updateFail": "Failed to update language."
+    }
+  },
+  "Help": {
+    "title": "Help & Instructions",
+    "subtitle": "Find guides and resources to help you make the most of your Ninja Card.",
+    "video": {
+      "header": "How to set up your Ninja Card and activate all features?",
+      "paragraph": "A short video that shows how to easily enter your information and use all the features of the smart business card."
+    },
+    "documents": {
+      "title": "Downloadable Documents"
+    },
+    "docs": {
+      "profileFunctions": "Learn more about profile features (PDF)"
+    },
+    "buttons": {
+      "download": "Download",
+      "back": "Back"
+    }
+  },
+  "video": {
+    "header": "How to set up your Ninja Card and activate all features?",
+    "paragraph": "A short video that shows how to easily enter your information and use all the features of the smart business card.",
+    "cta": "Watch video"
+  },
+  "leads": {
+    "title": "Your Leads",
+    "subtitle": "Manage and export your collected leads easily.",
+    "downloadCsv": "Download as CSV",
+    "loading": "Loading leads",
+    "empty": "No leads found.",
+    "fields": {
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message"
+    },
+    "delete": "Delete",
+    "deleting": "Deleting...",
+    "loadMore": "Load more",
+    "allLeadsLoaded": "All {count} leads loaded",
+    "success": {
+      "delete": "Deleted successfully"
+    },
+    "errors": {
+      "load": "Error loading leads",
+      "generic": "Failed to load data.",
+      "delete": "Error deleting lead",
+      "deleteFail": "Lead deletion failed."
+    },
+    "actions": {
+      "text": "Actions",
+      "view": "View",
+      "delete": "Delete",
+      "deleting": "Deleting...",
+      "noMessage": "No message",
+      "followUp": "Follow up"
+    },
+    "followUp": {
+      "title": "AI Follow-up Email",
+      "leadMessage": "Their message",
+      "generating": "Generating email...",
+      "subject": "Subject",
+      "body": "Email body",
+      "copy": "Copy",
+      "copied": "Copied",
+      "regenerate": "Regenerate",
+      "openEmail": "Open in Email"
+    },
+    "search": "Search by name, email or phone…",
+    "totalLeads": "Total leads",
+    "withMessage": "With message",
+    "withEmail": "With email",
+    "withPhone": "With phone",
+    "sort": {
+      "newest": "Newest",
+      "oldest": "Oldest"
+    },
+    "noResults": "No leads match",
+    "deleteModal": {
+      "title": "Delete Lead",
+      "description": "This action cannot be undone. The following lead will be permanently removed.",
+      "cancel": "Cancel",
+      "confirm": "Delete Lead",
+      "deleting": "Deleting..."
+    },
+    "messageModal": {
+      "label": "Message",
+      "replyEmail": "Reply via Email",
+      "close": "Close"
+    },
+    "hubspot": {
+      "buttonConnect": "Connect HubSpot",
+      "buttonConnected": "HubSpot",
+      "panelTitle": "HubSpot CRM",
+      "panelSubtitle": "Sync your leads automatically",
+      "tokenLabel": "Private App Token",
+      "tokenConnected": "Connected",
+      "tokenPlaceholder": "pat-na1-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+      "tokenSaved": "Token saved in browser",
+      "saveConnect": "Save & Connect",
+      "disconnect": "Disconnect",
+      "howToTitle": "How to get your Private App token?",
+      "howToSteps": [
+        "Go to HubSpot → Settings → Integrations → Private Apps",
+        "Click \"Create a private app\"",
+        "Give it a name (e.g. \"Ninja Cards\")",
+        "Under Scopes → add: crm.objects.contacts.write",
+        "Click \"Create app\" → copy the token"
+      ],
+      "statSynced": "Synced",
+      "statFailed": "Failed",
+      "statPending": "Pending",
+      "leadStatusTitle": "Lead Status",
+      "syncButton": "Sync {count} leads to HubSpot",
+      "syncingButton": "Syncing {count} leads...",
+      "allSynced": "All leads synced",
+      "inHubSpot": "In HubSpot",
+      "statusSyncing": "Syncing",
+      "statusSynced": "Synced",
+      "statusUpdated": "Updated",
+      "statusRetry": "Retry",
+      "statusSync": "Sync",
+      "statusFailed": "Failed",
+      "mobileStatusSynced": "HS ✓",
+      "successSynced": "✓ {count} lead synced to HubSpot",
+      "successSyncedPlural": "✓ {count} leads synced to HubSpot",
+      "successPartial": "Synced {synced}, {failed} failed — click Retry on failed leads"
+    }
+  },
+  "dashboard": {
+    "title": "Profile Analytics",
+    "subtitle": "Analyze your profile's performance with detailed statistics.",
+    "loading": "Loading...",
+    "overview": "Overall Data Overview",
+    "breakdown": "Statistics Breakdown",
+    "filter": "Filter by month:",
+    "allMonths": "All months",
+    "monthlyActivity": "Monthly Activity",
+    "overall": "Total count",
+    "metrics": {
+      "profileVisits": "Profile visits",
+      "vcfDownloads": "Business card downloads",
+      "profileShares": "Profile shares",
+      "socialLinkClicks": "Social link clicks"
+    },
+    "insights": {
+      "peakDay": "Peak month",
+      "peakHour": "Peak hour",
+      "mostPopularLink": "Most popular link",
+      "avgDaily": "Average daily",
+      "monthlyGrowth": "Monthly growth",
+      "bestMonth": "Best month",
+      "visitsPerDay": "Visits per day",
+      "periodTrend": "Trend for the selected period",
+      "vsFirstHalf": "Comparison with the first half of the year",
+      "allMonthsBreakdown": "Breakdown for all months",
+      "bestMonthHighlighted": "Best month!",
+      "dataPoints": "Scans for the selected period",
+      "title": "Profile Analytics"
+    },
+    "filters": {
+      "all": "All months",
+      "today": "Today",
+      "last7": "This week",
+      "last30": "This month",
+      "thisWeek": "This week",
+      "thisMonth": "This month",
+      "lastMonth": "Last month",
+      "custom": "Select period",
+      "day": "Day",
+      "week": "Week",
+      "month": "Month",
+      "from": "From",
+      "to": "To",
+      "label": "Filter by date",
+      "groupBy": "Group by"
+    },
+    "errors": {
+      "load": "Error loading data"
+    }
+  },
+  "profileHeader": {
+    "changeCover": "Change cover",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "cropModal": {
+    "title": "Crop your cover image",
+    "subtitle": "Adjust the cropping area to fit your cover image perfectly.",
+    "zoomOut": "Zoom Out",
+    "zoomIn": "Zoom In",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "crop": "Crop",
+    "save": "Save",
+    "changeCover": "Change cover",
+    "alerts": {
+      "error": "Error",
+      "success": "Success",
+      "invalidType": "Invalid file type. Please upload an image.",
+      "fileTooLarge": "File size exceeds the limit. Please upload a smaller image.",
+      "unexpected": "An unexpected error occurred. Please try again.",
+      "noImageSelected": "No image selected. Please choose an image to upload.",
+      "cropFailed": "Failed to crop image. Please try again.",
+      "userNotAuthenticated": "User is not authenticated. Please log in and try again.",
+      "coverSaveError": "Failed to save cover image. Please try again.",
+      "coverSaved": "Cover image saved successfully."
+    }
+  },
+  "backgroundSelector": {
+    "title": "Card theme",
+    "ariaSelect": "Select {name} theme",
+    "customise": "Customise colours",
+    "hideCustomise": "Hide colours",
+    "accent": "Accent colour",
+    "textPrimary": "Name colour",
+    "textSecondary": "Position colour",
+    "resetDefaults": "Reset to defaults"
+  },
+  "howToUse": {
+    "title": "How to use our NFC Ninja Card?",
+    "intro": "Discover a new way of sharing your contacts with our NFC Ninja Card. Here's how it works:",
+    "steps": {
+      "1": "Scan your card following the video instructions for a quick setup.",
+      "2": "Tap your NFC card on a compatible phone and share information in seconds.",
+      "3": "Create a personalized profile that represents you in a unique way."
+    },
+    "outro": "Your contacts will never look the same. Order your NFC Ninja Card today and impress at every meeting!",
+    "enterFullscreen": "Enter fullscreen",
+    "exitFullscreen": "Exit fullscreen"
+  },
+  "Product": {
+    "badge": "Best-selling product!",
+    "example": "Example: {index}",
+    "customize": "Customize Your Card",
+    "freeShipping": "Order now and get free shipping!",
+    "sections": {
+      "description": "Description",
+      "shipping": "Shipping Information",
+      "details": "How do I add my data?",
+      "questions": "Have a question?"
+    },
+    "description": {
+      "title": "Ninja Card PVC Smart Business Card",
+      "subtitle": "customize your first impression",
+      "paragraph1": "Make every introduction count with the Ninja Card PVC Smart Business Card – a modern, personalized tool for seamless and memorable networking. Designed for professionals who value innovation and personal branding, this smart card combines technology with style to boost your presence.",
+      "customizable": "Customizable front and back:",
+      "design": "Design: Choose your brand colors or upload your own artwork to customize both sides of the card.",
+      "logo": "Logo integration: Add your company logo on both sides to strengthen brand identity.",
+      "qr": "QR code & NFC icons: Personalize your card with branded QR and NFC elements for a clean, modern look.",
+      "contact": "Professional details: Include your name, title, and contact information for a strong and reliable impression."
+    },
+    "shipping": "We deliver to any location in Bulgaria. Cards are produced within 3–5 business days and arrive fully ready to use.",
+    "details": "Once you receive the card and scan it for the first time, you’ll activate your profile and get access to resources and video tutorials.",
+    "questions": "Contact us {link}. Our team is ready to help!",
+    "questionsLink": "HERE",
+    "benefits": {
+      "fast": {
+        "title": "Fast Production",
+        "subtitle": "Your card will be ready within 3–5 business days."
+      },
+      "payment": {
+        "title": "One-time Payment",
+        "subtitle": "Pay only once and use the card with no extra fees."
+      },
+      "design": {
+        "title": "Compact & Elegant Design",
+        "subtitle": "Standard size – 85.6mm x 53.98mm, fits in any wallet."
+      },
+      "tech": {
+        "title": "NFC & QR Code Technology",
+        "subtitle": "Easily share your contacts via tap or scan."
+      },
+      "ready": {
+        "title": "Ready to Use",
+        "subtitle": "The card arrives fully set up. Just activate it."
+      },
+      "compatibility": {
+        "title": "Device Compatibility",
+        "subtitle": "Works with iOS and Android devices, including older models."
+      }
+    }
+  },
+  "RelatedProducts": {
+    "title": "Related Products",
+    "view": "View"
+  },
+  "LeadForm": {
+    "title": "Leave your contact details for {name}",
+    "subtitle": "So they can have your contact information to reach out to you.",
+    "successMessage": "Your information has been submitted successfully!",
+    "successTitle": "Success",
+    "smartSubtitle": "2 quick questions — 30 seconds",
+    "question1": "What is your name?",
+    "question2": "What are you looking for?",
+    "question2Optional": "(optional)",
+    "question2Placeholder": "Briefly describe how I can help you...",
+    "analyzingTitle": "Analyzing...",
+    "analyzingSubtitle": "AI is categorizing your request",
+    "successLead": "Thank you, {name}!",
+    "successLeadSub": "Your contact has been saved.",
+    "successOwnerWill": "will be in touch soon.",
+    "placeholders": {
+      "name": "Name*",
+      "phone": "Phone*",
+      "email": "Email (optional)",
+      "message": "Message (optional)"
+    },
+    "gdpr": "I agree to the processing of my personal data.",
+    "skip": "Skip",
+    "submit": "Save contact",
+    "submitting": "Sending...",
+    "errors": {
+      "name": "Please enter your name.",
+      "phone": "Please enter your phone.",
+      "gdpr": "Please agree to the processing of personal data.",
+      "submit": "Error while sending.",
+      "failed": "Form submission failed."
+    },
+    "categories": {
+      "hot": "Hot lead",
+      "warm": "Warm lead",
+      "cold": "Cold lead",
+      "partnership": "Partnership",
+      "job": "Job / Career",
+      "other": "Other"
+    }
+  },
+  "CookiePolicy": {
+    "title": "Cookie Policy",
+    "intro": "The website ninjacardsnfc.com uses cookies to improve functionality and user experience.",
+    "cookiesUsed": {
+      "title": "What cookies we use:",
+      "session": "Session cookies (mandatory)",
+      "analytics": "Analytics (Google Analytics – if enabled)",
+      "marketing": "Marketing (Facebook Pixel – if enabled)"
+    },
+    "legalBasis": {
+      "title": "Legal basis:",
+      "text": "Consent under Art. 6, para. 1, letter \"a\" GDPR via banner on first visit."
+    },
+    "control": {
+      "title": "How to control them:",
+      "text": "You can manage settings via the banner or your browser preferences."
+    }
+  },
+  "PrivacyPolicy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: 28.12.2025",
+    "intro": "This Privacy Policy aims to inform you how \"Ninja Card\" ltd processes personal data through the website https://www.ninjacardsnfc.com/, and what your rights are.",
+    "sections": {
+      "admin": {
+        "title": "Data Controller:",
+        "content": "\"Ninja Card\" ltd\nUIC: 208374055\nRepublic of Bulgaria\nThe company is not required to appoint a Data Protection Officer pursuant to Art. 37 of Regulation (EU) 2016/679 (GDPR)."
+      },
+      "dataCollected": {
+        "title": "Categories of Personal Data:",
+        "items": [
+          "Full name",
+          "Email address",
+          "Phone number",
+          "Social media links",
+          "Office address (if applicable)",
+          "Profile photo and/or cover image",
+          "Photo or logo for NFC business card",
+          "Potential client data submitted via forms",
+          "Technical data (IP address, device, access logs)"
+        ]
+      },
+      "legalBasis": {
+        "title": "Legal Basis for Processing:",
+        "content": "Personal data is processed on the basis of Art. 6(1) GDPR: consent (point a), performance of a contract (point b), and legitimate interests of the Company (point f)."
+      },
+      "purpose": {
+        "title": "Purposes and Legal Bases for Processing:",
+        "items": [
+          "Responding to inquiries – performance of a contract or legitimate interest",
+          "Order fulfillment – performance of a contract",
+          "Sending newsletters – explicit consent",
+          "Platform security – legitimate interest"
+        ]
+      },
+      "storage": {
+        "title": "Data Retention:",
+        "content": "Data submitted via contact forms is retained for up to 12 months. Customer data is retained in accordance with accounting and tax legislation. Data used for marketing purposes is retained until consent is withdrawn."
+      },
+      "recipients": {
+        "title": "Data Recipients:",
+        "content": "Personal data may be shared only with technical and logistical partners (e.g. hosting providers and courier companies), to the extent necessary for providing the service. Data is not shared with third parties for marketing purposes."
+      },
+      "rights": {
+        "title": "Your Rights:",
+        "items": [
+          "Right of access",
+          "Right to rectification",
+          "Right to erasure (\"right to be forgotten\")",
+          "Right to data portability",
+          "Right to withdraw consent at any time",
+          "Right to object to processing",
+          "Right to lodge a complaint with the CPDP (www.cpdp.bg)"
+        ]
+      },
+      "contact": {
+        "title": "Contact:",
+        "content": "For questions regarding this Privacy Policy or the processing of your personal data, please contact us at: ninjacardnfc@gmail.com"
+      }
+    }
+  },
+  "TermsOfUse": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated: 28.12.2025",
+    "sections": [
+      {
+        "title": "Parties:",
+        "content": "These Terms govern the relationship between “Ninja Card” Ltd and users of ninjacardsnfc.com."
+      },
+      {
+        "title": "Service Description:",
+        "content": "The Company provides a platform for personalized NFC business cards and digital profiles, including SaaS functionality."
+      },
+      {
+        "title": "Orders and Delivery:",
+        "content": "Orders are placed online. Delivery is handled via Speedy or Econt."
+      },
+      {
+        "title": "Pricing and Payment:",
+        "content": "Prices are stated in BGN and include VAT where applicable."
+      },
+      {
+        "title": "Returns:",
+        "content": "Personalized products are non-refundable except in cases of proven defects."
+      },
+      {
+        "title": "Limitation of Liability:",
+        "content": "The Company is not liable for improper use of the service. Total liability is limited to the amount paid in the last 12 months."
+      },
+      {
+        "title": "No Warranties:",
+        "content": "The service is provided “as is”."
+      },
+      {
+        "title": "Amendments:",
+        "content": "The Company may amend these Terms. Amendments take effect upon publication on the website."
+      },
+      {
+        "title": "Alternative Dispute Resolution:",
+        "content": "Users may access the EU Online Dispute Resolution platform: https://ec.europa.eu/consumers/odr"
+      },
+      {
+        "title": "Governing Law:",
+        "content": "These Terms are governed by Bulgarian law."
+      }
+    ]
+  },
+  "Impact": {
+    "badge": "Eco Friendly Impact",
+    "title": "Environmental Impact Calculator",
+    "subtitle": "Discover the positive impact of switching to Ninja Card.",
+    "label": "Number of Ninja Card Sold",
+    "help": "Enter a value between {min} and {max}.",
+    "inputError": "Please enter a value between {min} and {max}.",
+    "money": "Money Saved",
+    "trees": "Trees Saved",
+    "co2": "CO₂ Reduced",
+    "reset": "Reset",
+    "footer": "Calculations are estimates based on industry averages."
+  },
+  "Register": {
+    "title": "Add email and password",
+    "subtitle": "Set your email, password and personal link",
+    "fields": {
+      "email": "Email",
+      "password": "Password",
+      "confirm": "Confirm password"
+    },
+    "actions": {
+      "save": "Save",
+      "saving": "Saving..."
+    },
+    "success": {
+      "title": "Success",
+      "saved": "Saved successfully!"
+    },
+    "errors": {
+      "title": "Error",
+      "generic": "Registration error",
+      "tryAgain": "Something went wrong. Please try again.",
+      "emailInvalid": "Enter a valid email",
+      "emailRequired": "Email is required",
+      "passwordMin": "Password must be at least 6 characters",
+      "passwordRequired": "Password is required",
+      "passwordsMismatch": "Passwords do not match",
+      "confirmRequired": "Please confirm your password",
+      "acceptTerms": "You must accept the Terms and Privacy Policy",
+      "acceptGdpr": "You must accept GDPR processing"
+    },
+    "legal": {
+      "termsLine": "By registering you accept our <privacy>Privacy Policy</privacy> and <terms>Terms of Use</terms>.",
+      "gdpr": "I consent to processing of my personal data for creating an NFC business card according to the Privacy Policy. My request is voluntary. (Processing is based on Art. 6(1)(a)(b) GDPR)"
+    }
+  },
+  "Billing": {
+    "title": "Billing",
+    "subtitle": "Manage your subscription and view your invoices.",
+    "premium": {
+      "cta": "Upgrade to Samurai for more features",
+      "benefits": "Lead capture form, analytics, priority support, branded card, and more."
+    },
+    "upgrade": {
+      "cta": "Upgrade to Samurai for more features",
+      "description": "Lead capture form, analytics, priority support, branded card, and more.",
+      "button": "Upgrade Now"
+    },
+    "subscription": {
+      "noSubscription": "No active subscription",
+      "plan": "Plan",
+      "managePayments": "Manage payments",
+      "viewPlans": "View plans"
+    },
+    "invoices": {
+      "title": "Invoices",
+      "empty": "You don’t have any invoices yet.",
+      "date": "Date",
+      "amount": "Amount",
+      "currency": "Currency",
+      "invoice": "Invoice",
+      "view": "View",
+      "count": "You have {count} invoice(s)."
+    }
+  },
+  "Pricing": {
+    "title": "Clear Pricing. Real Value.",
+    "subtitle": "Choose a plan that fits your goals. Upgrade anytime.",
+    "free": "Free",
+    "month": "month",
+    "year": "year",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "save20": "2 months free",
+    "mostPopular": "Most Popular",
+    "customPrice": "Custom pricing",
+    "startTrial": "Start",
+    "subscribe": "Start free trial",
+    "contactUs": "Contact us",
+    "processing": "Processing…",
+    "errors": {
+      "notAuthenticated": "Please log in to continue",
+      "checkoutFailed": "Payment failed. Please try again."
+    },
+    "plans": {
+      "shinobi": {
+        "title": "Shinobi",
+        "description": "Perfect for individuals looking to get started with easy contact sharing.",
+        "priceId": {
+          "monthly": "price_1SpmVXBMFJ6zM7JJlpuScRcH",
+          "yearly": "price_1SpmVXBMFJ6zM7JJlpuScRcH"
+        },
+        "price": {
+          "monthly": 3.5,
+          "yearly": 35
+        },
+        "features": [
+          "30-day free trial",
+          "Digital profile",
+          "Free NFC card",
+          "QR code and share button",
+          "Basic info and 3 links",
+          "vCard download",
+          "Update your info anytime"
+        ]
+      },
+      "samurai": {
+        "title": "Samurai",
+        "description": "For professionals and businesses who want full access to all Pro features.",
+        "priceId": {
+          "monthly": "price_1SpmVXBMFJ6zM7JJlpuScRcH",
+          "yearly": "price_1SpmVXBMFJ6zM7JJlpuScRcH"
+        },
+        "price": {
+          "monthly": 7.9,
+          "yearly": 79
+        },
+        "features": [
+          "30-day trial (by agreement)",
+          "Everything from Shinobi",
+          "Lead capture form",
+          "Analytics and interaction history",
+          "Extended fields and links",
+          "Priority support",
+          "Branded business card with your logo",
+          "Monthly reports"
+        ]
+      },
+      "shogun": {
+        "title": "Shogun",
+        "description": "For teams up to 100 users who want full control and advanced contact management and analytics.",
+        "priceId": {
+          "monthly": "price_1SpmVXBMFJ6zM7JJlpuScRcH",
+          "yearly": "price_1SpmVXBMFJ6zM7JJlpuScRcH"
+        },
+        "price": {
+          "monthly": 90,
+          "yearly": 900
+        },
+        "features": [
+          "30-day free trial (by agreement)",
+          "Admin panel",
+          "Up to 100 users with everything from Samurai features",
+          "Centralized management and analytics",
+          "Company branding",
+          "Advanced reports and statistics",
+          "Onboarding and team support"
+        ]
+      }
+    },
+    "enterprise": {
+      "title": "Need a plan for bigger tams?",
+      "description": "Get custom pricing and dedicated support for your organization.",
+      "button": "Contact Us"
+    }
+  },
+  "GalleryBenefits": {
+    "title": "One profile. Endless ways to share.",
+    "subtitle": "Everything you need to share your contacts quickly and professionally.",
+    "chooseStyle": "Choose card style / material",
+    "addToCart": "See More",
+    "free": "Free",
+    "personalization": {
+      "title": "Personalization",
+      "logo": "Your logo or brand",
+      "name": "Name, position, and company",
+      "branding": "Colors and design to match your style"
+    },
+    "whatYouGet": {
+      "title": "What’s included",
+      "nfc": "NFC card included",
+      "profile": "Digital contact profile",
+      "qr": "Personal QR code",
+      "vcard": "vCard download with one click",
+      "analytics": "Analytics and insights (Pro)",
+      "leads": "Lead capture (Pro)"
+    }
+  },
+  "RealUseCases": {
+    "title": "Built for real-life situations",
+    "subtitle": "Whether you sell, present, or build a business - Ninja Card works for you.",
+    "sales": {
+      "title": "Sales & Business Development",
+      "points": {
+        "1": "Share your contact with one tap or scan",
+        "2": "Professional digital profile instead of paper cards",
+        "3": "Track interest and capture leads (Pro)"
+      }
+    },
+    "marketing": {
+      "title": "Marketing & Company Teams",
+      "points": {
+        "1": "One standard for the entire team",
+        "2": "Easy profile updates when changes happen",
+        "3": "Stronger and consistent brand presence"
+      }
+    },
+    "consultants": {
+      "title": "Consultants & Experts",
+      "points": {
+        "1": "All services and contact details in one place",
+        "2": "Fast sharing after meetings and calls",
+        "3": "Modern and trustworthy first impression"
+      }
+    },
+    "entrepreneurs": {
+      "title": "Entrepreneurs & Founders",
+      "points": {
+        "1": "One profile for all your projects",
+        "2": "Full control over your information",
+        "3": "Flexible sharing anywhere"
+      }
+    },
+    "networking": {
+      "title": "Events & Networking",
+      "points": {
+        "1": "No need to carry business cards",
+        "2": "Contacts are saved in seconds",
+        "3": "Card and QR for every situation"
+      }
+    }
+  },
+  "SocialProof": {
+    "title": "Trusted by real professionals",
+    "subtitle": "Businesses and creators already using their digital card every day.",
+    "stats": {
+      "cards": "Active digital cards",
+      "scans": "Profile scans",
+      "satisfaction": "Customer satisfaction"
+    }
+  },
+  "CTA": {
+    "title": "Create your digital profile today",
+    "subtitle": "One profile. Multiple ways to share. Your contacts and links are always ready.",
+    "benefits": {
+      "one": {
+        "title": "NFC + QR + Share",
+        "text": "Works with any smartphone. No app required."
+      },
+      "two": {
+        "title": "Digital profile",
+        "text": "All your contacts, links and information in one place."
+      },
+      "three": {
+        "title": "Analytics & Leads (Pro)",
+        "text": "Track interactions and collect real business leads."
+      }
+    },
+    "actions": {
+      "primary": "Start for free",
+      "secondary": "See example profile"
+    },
+    "note": "Card included • Set up in minutes • It takes 3 minutes to create your profile"
+  },
+  "LayoutFAQ": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Clear answers about Ninja Card and the digital profile.",
+    "items": {
+      "one": {
+        "question": "What do I actually get?",
+        "answer": "You get a digital contact profile that you can share in multiple ways. The NFC card is included as a convenient sharing tool."
+      },
+      "two": {
+        "question": "How do I share my profile?",
+        "answer": "You can share it using an NFC card, QR code, share button or link. It works in any situation."
+      },
+      "three": {
+        "question": "Does it work on all phones?",
+        "answer": "Yes. NFC works on most modern smartphones, while the QR code and link work on all devices."
+      },
+      "four": {
+        "question": "Can I update my information?",
+        "answer": "Yes. You edit your profile online and changes are applied instantly, without needing a new card."
+      },
+      "five": {
+        "question": "How does the subscription work?",
+        "answer": "The subscription is for the digital profile. You can start with a 30-day free trial and cancel anytime."
+      }
+    }
+  },
+  "BtnJoinNow": {
+    "text": "Start For Free"
+  },
+  "HeroJoin": {
+    "title": {
+      "line1": "Join the",
+      "line2": "next generation"
+    },
+    "highlight": "digital profiles",
+    "tagline": [
+      "ONE",
+      "PROFILE",
+      "EVERYTHING"
+    ],
+    "description": {
+      "main": "Three plans designed to make contact sharing faster, more professional and more effective.",
+      "highlight": "Build your digital profile and turn every contact into an opportunity.",
+      "free": "Start completely free"
+    },
+    "cta": {
+      "primary": "Choose your plan",
+      "secondary": "30-day free trial"
+    }
+  },
+  "ChoosePlan": {
+    "header": {
+      "titlePrimary": "Choose your",
+      "titleHighlight": "plan",
+      "compare": "Compare all features →"
+    },
+    "plans": {
+      "shinobi": {
+        "name": "SHINOBI",
+        "price": "€3.5",
+        "period": "per month",
+        "badge": "",
+        "features": [
+          "1 digital profile",
+          "Basic customization",
+          "QR & link sharing",
+          "vCard contact download",
+          "Mobile optimized"
+        ],
+        "button": "Get started",
+        "note": ""
+      },
+      "samurai": {
+        "name": "SAMURAI",
+        "price": "€8.9",
+        "period": "per month",
+        "badge": "MOST POPULAR",
+        "features": [
+          "Everything in Shinobi",
+          "Lead capture form",
+          "Analytics & interaction history",
+          "Extended fields and links",
+          "Logo branding",
+          "Priority support"
+        ],
+        "button": "Choose Samurai",
+        "note": "30-day free trial • Cancel anytime"
+      },
+      "shogun": {
+        "name": "SHOGUN",
+        "price": "€90",
+        "period": "per month",
+        "badge": "FOR TEAMS",
+        "features": [
+          "Up to 100 users",
+          "Everything in Samurai",
+          "Admin dashboard",
+          "Centralized profile management",
+          "Company branding",
+          "Advanced analytics & reports",
+          "Team onboarding & support",
+          "Monthly reports"
+        ],
+        "button": "Contact us",
+        "note": "Built for teams and organizations"
+      }
+    },
+    "footer": {
+      "question": "Have questions?",
+      "link": "View detailed comparison"
+    }
+  },
+  "Bonuses": {
+    "header": {
+      "titlePrimary": "Premium",
+      "titleHighlight": "features included",
+      "subtitle": "Advanced tools designed to turn every contact into a real opportunity."
+    },
+    "items": [
+      {
+        "title": "Advanced analytics",
+        "description": "See how many times your profile is viewed, what people interact with, and where real interest appears.",
+        "icon": "📊"
+      },
+      {
+        "title": "Lead capture",
+        "description": "People enter their own details through a form and you receive ready-to-use contacts instantly.",
+        "icon": "🧲"
+      },
+      {
+        "title": "Company branding",
+        "description": "Add your logo, colors, and custom style so your profile truly represents your brand.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Advanced sections & links",
+        "description": "Show more - social links, website, portfolio, offers, or important resources in one place.",
+        "icon": "🔗"
+      },
+      {
+        "title": "Team management",
+        "description": "Manage profiles, roles, and access for your entire team from one centralized admin panel.",
+        "icon": "👥"
+      },
+      {
+        "title": "Priority support",
+        "description": "Get fast, personalized assistance from the Ninja Card team whenever you need help.",
+        "icon": "💬"
+      }
+    ],
+    "cta": {
+      "text": "Ready to unlock the full power of Ninja Card?",
+      "button": "Start for free"
+    }
+  },
+  "ExploreFeatures": {
+    "header": {
+      "titlePrimary": "Explore",
+      "titleHighlight": "the features",
+      "subtitle": "Tools designed to make contact sharing faster, smarter, and more effective."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Digital profile",
+        "subtitle": "Share your contact in seconds",
+        "description": "One digital profile with a QR code and link for professional sharing everywhere.",
+        "badge": "Included",
+        "availability": "SHINOBI"
+      },
+      {
+        "id": 2,
+        "title": "Advanced analytics",
+        "subtitle": "See who shows real interest",
+        "description": "Track profile views, clicks, and interactions in real time.",
+        "badge": "Most popular",
+        "availability": "SAMURAI"
+      },
+      {
+        "id": 3,
+        "title": "Company branding",
+        "subtitle": "A profile that looks like your brand",
+        "description": "Add your logo, colors, and custom design for a professional and recognizable presence.",
+        "availability": "SAMURAI"
+      },
+      {
+        "id": 4,
+        "title": "Team management",
+        "subtitle": "Centralized control for your team",
+        "description": "Manage profiles, roles, and access for up to 100 users from a single admin panel.",
+        "badge": "For teams",
+        "availability": "SHOGUN"
+      },
+      {
+        "id": 5,
+        "title": "One-tap sharing",
+        "subtitle": "NFC, QR code, and share button",
+        "description": "Share your profile via NFC card, QR code, link, or share button - no app required.",
+        "badge": "Included",
+        "availability": "SHINOBI"
+      },
+      {
+        "id": 6,
+        "title": "Lead capture",
+        "subtitle": "People enter their own details",
+        "description": "Collect contacts through a form - the other person submits their details and you receive them instantly.",
+        "badge": "Pro feature",
+        "availability": "SAMURAI"
+      },
+      {
+        "id": 7,
+        "title": "Always up-to-date info",
+        "subtitle": "One change, everywhere",
+        "description": "Edit your profile anytime. Your latest information is shown instantly when shared.",
+        "availability": "SHINOBI",
+        "badge": "Included"
+      }
+    ],
+    "availableText": "Available for"
+  },
+  "ComparePlans": {
+    "badge": "Compare all features →",
+    "save20": "2 months free",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "freeFirstMonth": "First month free.",
+    "alertAlreadyInCart": "Plan is already in cart",
+    "alertSuccsess": "Plan added to cart!",
+    "comingSoon": "The plan is coming soon.",
+    "header": {
+      "titlePrimary": "Choose your",
+      "titleHighlight": "plan",
+      "subtitle": "All plans include an NFC card. The difference is control, insights and scale."
+    },
+    "features": [
+      {
+        "label": "Digital contact profile",
+        "availableIn": [
+          "FREE TRIAL",
+          "SHINOBI",
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "NFC card + QR code",
+        "availableIn": [
+          "SHINOBI",
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Sharing via link & share button",
+        "availableIn": [
+          "FREE TRIAL",
+          "SHINOBI",
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Contact save (vCard)",
+        "availableIn": [
+          "FREE TRIAL",
+          "SHINOBI",
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Advanced links & sections",
+        "availableIn": [
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Lead capture form",
+        "availableIn": [
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Analytics & interaction history",
+        "availableIn": [
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Company branding (logo & colors)",
+        "availableIn": [
+          "SAMURAI",
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Admin dashboard",
+        "availableIn": [
+          "SHOGUN"
+        ]
+      },
+      {
+        "label": "Team management (up to 100 profiles)",
+        "availableIn": [
+          "SHOGUN"
+        ]
+      }
+    ],
+    "plans": [
+      {
+        "name": "FREE TRIAL",
+        "price": "14 days free",
+        "badge": "Try first",
+        "includes": [
+          "Digital profile",
+          "QR code & shareable link",
+          "No card, no commitment"
+        ],
+        "button": "Start free"
+      },
+      {
+        "name": "SHINOBI",
+        "priceForMonth": "€3.5 per month",
+        "priceForYear": "€35 per year",
+        "includes": [
+          "1 digital profile",
+          "Included NFC card",
+          "Basic customization",
+          "QR code & link"
+        ],
+        "button": "Start for free"
+      },
+      {
+        "name": "SAMURAI",
+        "priceForMonth": "€7.9 per month",
+        "priceForYear": "€79 per year",
+        "badge": "Most popular",
+        "miniDescription": "Best for professionals who want full access to all Pro features.",
+        "includes": [
+          "Everything in Shinobi",
+          "Lead capture form",
+          "Analytics & insights",
+          "Advanced sections",
+          "Company branding",
+          "Priority support"
+        ],
+        "button": "Start for free"
+      },
+      {
+        "name": "SHOGUN",
+        "priceForMonth": "€90 - custom pricing for bigger teams",
+        "priceForYear": "€900 - custom pricing for bigger teams",
+        "badge": "For teams",
+        "includes": [
+          "Everything in Samurai",
+          "Up to 100 profiles",
+          "Admin dashboard",
+          "Team management",
+          "Centralized analytics",
+          "Onboarding & support"
+        ],
+        "button": "Contact us"
+      }
+    ]
+  },
+  "FreeTrial": {
+    "badge": {
+      "label": "FREE TRIAL",
+      "subLabel": "Ninja Card"
+    },
+    "title": "Start for free",
+    "description": "Create your digital profile and start sharing your contact via link or QR code. No card. No payment. No commitment. Upgrade whenever you’re ready.",
+    "buttonText": "Start free",
+    "socialProof": {
+      "text": "Join",
+      "highlight": "hundreds of professionals",
+      "suffix": "already using Ninja Card"
+    }
+  },
+  "ChooseCard": {
+    "hero": {
+      "title": "Choose Your Designs"
+    },
+    "pricing": {
+      "subtitlePersonalizedFirst": "First selected is Personalized → no free card. €20 each.",
+      "subtitleFreeFirst": "First selected is a gift from our team (except Personalized). Then €20 each."
+    },
+    "preview": {
+      "label": "Currently Previewing"
+    },
+    "choose": {
+      "title": "Choose Your Designs"
+    },
+    "selection": {
+      "title": "Your Selection ({count})",
+      "empty": "No cards selected yet",
+      "paidPart": "+ {paidQty}x €{price}",
+      "lineWithFree": "{qty}x - <free>1x FREE</free> {paidPart} → €{total}",
+      "lineNoFree": "€{total} ({paidQty}x €{price})"
+    },
+    "total": {
+      "label": "Total:"
+    },
+    "actions": {
+      "addAll": "Add All to Cart",
+      "remove": "✕"
+    },
+    "toast": {
+      "added": "Cards added to cart!"
+    },
+    "shipping": {
+      "note": "🚀 Free shipping on orders over €{amount}"
+    },
+    "cards": {
+      "personalized": "Personalized",
+      "pulseGreen": "Ninja Pulse – Green",
+      "pulseOrange": "Ninja Pulse – Orange",
+      "flow": "Ninja Flow",
+      "inferno": "Ninja Inferno",
+      "legacy": "Ninja Legacy",
+      "galaxy": "Ninja Galaxy",
+      "softGradient": "Ninja Soft Gradient"
+    },
+    "features": {
+      "title": "What makes Ninja Card different",
+      "quality": "One-tap NFC sharing",
+      "qualityDesc": "Just tap the card on a phone and your profile opens instantly. No typing. No explaining.",
+      "design": "QR code on the back",
+      "designDesc": "Works with any phone. Scan and share even when NFC is not available.",
+      "fast": "No app needed",
+      "fastDesc": "No downloads required. Everything works directly in the browser – fast and simple.",
+      "secure": "Instant contact sharing",
+      "secureDesc": "People save your contact with one click. No lost cards, no mistakes."
+    }
+  },
+  "ChoosePlanSection": {
+    "header": {
+      "titlePrimary": "Choose",
+      "titleHighlight": "a plan",
+      "subtitle": "Each plan is built for a different goal - from personal networking to team management.",
+      "note": "All paid plans include an NFC card + QR code."
+    },
+    "blocks": {
+      "bestFor": "Best for",
+      "why": "Why it works",
+      "highlights": "Key features"
+    },
+    "freeFirstMonth": "First month free. Use all features and cancel anytime.",
+    "alertSuccsess": "Plan added to cart!",
+    "footerHint": "You can upgrade anytime.",
+    "bottomLine": "Not sure which plan fits? Start with Samurai - our most popular choice.",
+    "plans": {
+      "shinobi": {
+        "title": "SHINOBI",
+        "price": "€3.5 / month",
+        "tagline": "Best starter plan for one profile + card.",
+        "bestFor": [
+          "Freelancers and solo professionals",
+          "Business events, meetings, networking",
+          "Anyone who wants “send me your contact” in seconds"
+        ],
+        "why": [
+          "Best value-to-price entry plan",
+          "Get a card + digital profile without complexity",
+          "Perfect for personal brand + basic presence"
+        ],
+        "highlights": [
+          "Digital profile + shareable link",
+          "NFC card + QR code",
+          "Save contact (vCard)",
+          "Basic personalization"
+        ],
+        "button": "Choose Shinobi"
+      },
+      "samurai": {
+        "title": "SAMURAI",
+        "price": "€8.9 / month",
+        "tagline": "Best for business: leads + analytics.",
+        "badge": "Most Popular",
+        "bestFor": [
+          "Business owners and sales people",
+          "Anyone who wants to capture leads",
+          "Professionals who track performance"
+        ],
+        "why": [
+          "Turn meetings into real contacts",
+          "See who clicks and what works",
+          "Look more professional with branding"
+        ],
+        "highlights": [
+          "Lead capture form",
+          "Analytics + interaction history",
+          "Advanced links and sections",
+          "Branding (logo, colors)"
+        ],
+        "button": "Choose Samurai"
+      },
+      "shogun": {
+        "title": "SHOGUN",
+        "price": "€90 / month",
+        "tagline": "For teams: centralized control + profile management.",
+        "badge": "For Teams",
+        "bestFor": [
+          "Companies and teams up to 100 people",
+          "Organizations with multiple reps/staff",
+          "Businesses that need centralized analytics"
+        ],
+        "why": [
+          "Manage the whole team from one place",
+          "Standardize profiles and cards",
+          "Track performance at company level"
+        ],
+        "highlights": [
+          "Admin dashboard",
+          "Team management (up to 100 profiles)",
+          "Centralized team analytics",
+          "Onboarding + team support"
+        ],
+        "button": "Contact us"
+      }
+    }
+  },
+  "PlansFaq": {
+    "header": {
+      "titlePrimary": "Frequently Asked",
+      "titleHighlight": "Questions",
+      "subtitle": "A clear comparison between Shinobi, Samurai and Shogun."
+    },
+    "items": {
+      "one": {
+        "question": "Which plan is best for an individual professional?",
+        "answer": "If you simply want to share your contact professionally, Shinobi is enough. If you want to collect leads and track real interest after meetings and events, Samurai is the smarter choice."
+      },
+      "two": {
+        "question": "What is the main difference between Shinobi and Samurai?",
+        "answer": "Shinobi lets you share your profile. Samurai lets you collect contacts through a form and track analytics. That’s the difference between “I shared my details” and “I captured leads.”"
+      },
+      "three": {
+        "question": "Why is Samurai the most popular plan?",
+        "answer": "Because it adds real business value: lead capture, deeper analytics, and branding. Most users want results from networking - not just a digital card."
+      },
+      "four": {
+        "question": "When should I choose Shogun?",
+        "answer": "When you have a team and need centralized control. Shogun supports up to 100 profiles with admin management, roles, and team-level analytics."
+      },
+      "five": {
+        "question": "Can I start with a lower plan and upgrade later?",
+        "answer": "Yes. Your profile stays the same - additional features simply unlock when you upgrade. No need to rebuild anything."
+      },
+      "six": {
+        "question": "Is the NFC card included in all paid plans?",
+        "answer": "Yes. Shinobi, Samurai and Shogun include an NFC card. The difference lies in the software features and level of control."
+      },
+      "seven": {
+        "question": "What does the Free Trial include?",
+        "answer": "The Free Trial allows you to create a digital profile and test sharing via link and QR code, so you can experience the system before choosing a plan."
+      },
+      "eight": {
+        "question": "What if my company team has more than 10 members?",
+        "answer": "Contact us. Shogun covers up to 100 profiles, but we can create a tailored solution based on your team size and needs."
+      }
+    }
+  },
+  "SuccessPage": {
+    "title": "Payment Successful",
+    "subtitle": "Your plan is now active. Let’s finalize your profile.",
+    "successMessage": "Your payment has been processed successfully.",
+    "description": "You now have full access to your selected plan. To start sharing your digital card, please complete your profile setup.",
+    "finishButton": "Complete My Profile",
+    "errorMessage": "There was a problem loading your profile.",
+    "returnHome": "Return to homepage",
+    "videoTitle": "How to set up your profile in 2 minutes",
+    "informationText": "What happens next?\n\n1. Add the contact information you want to share – phone number, email, social media links and more.\n2. Your profile becomes active instantly and is ready to use.\n3. If you selected a personalized card, our team will contact you to prepare a custom design and receive your final approval.\n4. After confirmation, your card will be produced and shipped within 1–3 business days.\n\nOnce you receive it, you will be able to share professionally – via your NFC card or your personal QR code.",
+    "informationLink": "Watch setup video"
+  },
+  "CartPage": {
+    "header": {
+      "title": "Your order",
+      "subtitle": "Plan + card. Ready to use in minutes."
+    },
+    "empty": {
+      "icon": "📭",
+      "title": "Your cart is empty",
+      "subtitle": "Choose a plan and a card design to activate Ninja Cards and start sharing professionally.",
+      "primaryCta": "Explore plans",
+      "secondaryCta": "Back to home"
+    },
+    "summary": {
+      "title": "Order summary",
+      "qty": "Qty",
+      "price": "Price",
+      "free30Days": "30-day free trial",
+      "subscriptionType": {
+        "monthly": "monthly",
+        "yearly": "yearly"
+      },
+      "freeLabel": "Complimentary",
+      "remove": "Remove"
+    },
+    "upsellPlans": {
+      "title": "Add a plan (recommended)",
+      "subtitle": "The design is the look — the plan unlocks features like sharing, analytics, and lead capture.",
+      "shinobi": {
+        "title": "Shinobi",
+        "description": "For individuals — fast sharing and a clean professional profile.",
+        "bullets": [
+          "Digital profile + vCard",
+          "Share via NFC / QR / link",
+          "Included NFC card"
+        ],
+        "cta": "View all plans"
+      },
+      "samurai": {
+        "badge": "Most popular",
+        "title": "Samurai",
+        "description": "For people who want outcomes — leads and analytics.",
+        "bullets": [
+          "Everything in Shinobi",
+          "Lead capture form",
+          "Advanced analytics & branding"
+        ],
+        "cta": "View all plans"
+      }
+    },
+    "upsellDesigns": {
+      "cta": "Explore card designs"
+    },
+    "totals": {
+      "subtotal": "Subtotal",
+      "complimentaryItems": "Complimentary items",
+      "total": "Total"
+    },
+    "checkout": {
+      "button": "Proceed to secure checkout",
+      "note": "🔒 Secure payment powered by Stripe • SSL encrypted"
+    },
+    "trust": {
+      "items": [
+        "✓ 30-day free trial",
+        "✓ NFC card included",
+        "✓ Support when needed"
+      ]
+    },
+    "errors": {
+      "checkoutFailed": "Payment issue. Please try again."
+    }
+  },
+  "EmailSignature": {
+    "header": {
+      "badge": "Premium Signature",
+      "title": "Email signature builder",
+      "subtitle": "Create a polished signature with your real contact details, active social links, and a working profile photo."
+    },
+    "sections": {
+      "customization": "Customization",
+      "quickSetup": "Quick setup",
+      "theme": "Theme",
+      "accentColor": "Accent Color",
+      "socialMedia": "Social links"
+    },
+    "themes": {
+      "modern": "Modern",
+      "classic": "Classic",
+      "minimal": "Minimal",
+      "bold": "Bold",
+      "professional": "Professional"
+    },
+    "fields": {
+      "name": "Full Name",
+      "position": "Position",
+      "company": "Company",
+      "email": "Email",
+      "phone1": "Phone Number",
+      "address": "Address",
+      "website": "Website",
+      "linkedin": "LinkedIn Profile"
+    },
+    "placeholders": {
+      "name": "John Carter",
+      "position": "Managing Partner",
+      "company": "Ninja Cards",
+      "email": "john@example.com",
+      "phone1": "+359 88 000 0000",
+      "address": "Sofia, Bulgaria",
+      "website": "ninjacardsnfc.com"
+    },
+    "toggles": {
+      "showImage": "Show profile image",
+      "showQR": "Show QR code",
+      "showSocial": "Show social links"
+    },
+    "social": {
+      "hint": "Only the links already added to this profile appear here."
+    },
+    "preview": {
+      "title": "Live Preview",
+      "note": "This is the exact HTML signature you can copy into Gmail, Outlook, or Apple Mail.",
+      "scanMe": "Scan me"
+    },
+    "actions": {
+      "copy": "Copy signature",
+      "copied": "Copied",
+      "copyHelp": "Paste it directly into your email client's signature settings.",
+      "download": "Download HTML",
+      "customColor": "Custom color"
+    },
+    "stats": {
+      "themes": "Themes",
+      "social": "Active socials",
+      "format": "Export"
+    },
+    "imageSupport": {
+      "title": "Image support",
+      "description": "The signature now uses a real image URL instead of base64, so email clients can render the profile photo correctly."
+    },
+    "howTo": {
+      "title": "How to add it to your email client",
+      "gmail": {
+        "label": "Gmail",
+        "steps": [
+          "1) Click Copy signature",
+          "2) Gmail -> Settings -> See all settings",
+          "3) In the Signature section, paste it",
+          "4) Save changes"
+        ]
+      },
+      "outlook": {
+        "label": "Outlook",
+        "steps": [
+          "1) Click Copy signature",
+          "2) Settings -> Mail -> Compose and reply",
+          "3) Paste into Email signature",
+          "4) Save your settings"
+        ]
+      },
+      "appleMail": {
+        "label": "Apple Mail",
+        "steps": [
+          "1) Click Copy signature",
+          "2) Mail -> Settings -> Signatures",
+          "3) Create a new signature and paste the content",
+          "4) Select which account should use it"
+        ]
+      }
+    },
+    "loading": "Loading..."
+  },
+  "deleteAccount": {
+    "subtitle": "Account Settings",
+    "title": "Delete Account",
+    "accountLabel": "Signed in as",
+    "whatGetsDeleted": {
+      "title": "What will be permanently deleted",
+      "items": [
+        "Your profile and all personal information",
+        "Your digital business card and QR code",
+        "All leads and contact requests you received",
+        "Your analytics and performance history",
+        "All uploaded images and media files"
+      ]
+    },
+    "warning": "This action is irreversible. Once deleted, your account and all associated data cannot be recovered. Make sure you have exported any data you need before proceeding.",
+    "deleteButton": "Delete my account",
+    "modal": {
+      "title": "Are you absolutely sure?",
+      "description": "This will permanently delete your account and all associated data. This action cannot be undone.",
+      "account": "Account",
+      "typeToConfirm": "Type",
+      "confirmWord": "delete",
+      "consequences": [
+        "All your data will be permanently erased",
+        "Your business card link will stop working",
+        "You will be logged out immediately",
+        "You cannot recover this account"
+      ],
+      "cancel": "Cancel",
+      "confirm": "Yes, delete my account",
+      "deleting": "Deleting..."
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "dataExport": {
+    "subtitle": "Privacy & GDPR",
+    "title": "Download My Data",
+    "accountLabel": "Signed in as",
+    "included": {
+      "title": "What's included in your export",
+      "items": {
+        "profile": {
+          "label": "Profile information",
+          "desc": "Name, email, phone, bio, address and all contact details"
+        },
+        "card": {
+          "label": "Social links",
+          "desc": "All linked social media profiles and external links"
+        },
+        "analytics": {
+          "label": "Analytics",
+          "desc": "Profile visits, downloads, shares and social clicks"
+        },
+        "leads": {
+          "label": "Leads",
+          "desc": "All contact requests you have received"
+        },
+        "subscription": {
+          "label": "Subscription",
+          "desc": "Your current plan, status and billing dates"
+        },
+        "invoices": {
+          "label": "Invoices",
+          "desc": "Full payment history with invoice links"
+        }
+      }
+    },
+    "gdprNote": "Under GDPR Article 20, you have the right to receive your personal data in a portable format. Your data will be exported as a JSON file and downloaded directly to your device. We do not store a copy of this export.",
+    "downloadButton": "Download My Data (.json)",
+    "downloadingButton": "Preparing your data...",
+    "downloadedButton": "Downloaded!",
+    "success": "Your data has been downloaded successfully.",
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "bioGenerator": {
+    "subtitle": "Profile Settings",
+    "title": "AI Bio Generator",
+    "dataTitle": "Data used for analysis",
+    "generateButton": "Generate Bio",
+    "generating": "Generating...",
+    "analysisTitle": "AI Analysis",
+    "savedSuccess": "Bio saved to your profile!",
+    "copy": "Copy",
+    "copied": "Copied",
+    "use": "Use",
+    "fields": {
+      "name": "Name",
+      "position": "Position",
+      "company": "Company",
+      "links": "Links",
+      "linksFound": "found"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again.",
+      "saveFail": "Failed to save bio."
+    }
+  },
+  "profileOptimizer": {
+    "subtitle": "Profile Settings",
+    "title": "Profile Optimizer",
+    "description": "AI analysis of your profile with specific recommendations to get more leads.",
+    "snapshotTitle": "Your profile data",
+    "analyzeButton": "Analyze my profile",
+    "analyzing": "Analyzing...",
+    "reAnalyze": "Re-analyze",
+    "verdict": "AI Verdict",
+    "highPriority": "high priority",
+    "mediumPriority": "medium priority",
+    "recommendationsTitle": "Recommendations",
+    "fields": {
+      "name": "Name",
+      "position": "Position",
+      "company": "Company",
+      "bio": "Bio",
+      "photo": "Profile photo",
+      "links": "Social links",
+      "set": "Set",
+      "missing": "Missing",
+      "linksFound": "found"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "abTester": {
+    "subtitle": "Profile Settings",
+    "title": "A/B Tester",
+    "description": "AI-generated variants for your profile. See the before/after preview and apply with one click.",
+    "currentStats": "Current performance",
+    "analyzeButton": "Generate A/B Tests",
+    "analyzing": "Analyzing...",
+    "overallInsight": "AI Insight",
+    "reAnalyze": "Generate new variants",
+    "stats": {
+      "visits": "Visits",
+      "leads": "Leads",
+      "convRate": "Conv. Rate"
+    },
+    "errors": {
+      "generic": "Something went wrong. Please try again."
+    }
+  },
+  "changelog": {
+    "badge": "Changelog",
+    "title": "New Features",
+    "titleAccent": "& Updates",
+    "description": "Everything new in Ninja Card — features, improvements and AI integrations.",
+    "stats": {
+      "versions": "versions",
+      "changes": "updates",
+      "aiFeatures": "AI features"
+    },
+    "changes": "updates",
+    "latest": "Latest",
+    "footer": "Ninja Card",
+    "tags": {
+      "AI": "AI",
+      "newFeature": "New Feature",
+      "improvement": "Improvement",
+      "card": "Card",
+      "dashboard": "Dashboard"
+    },
+    "releases": {
+      "v25": {
+        "label": "AI Edition",
+        "highlight": "Artificial intelligence comes to Ninja Card",
+        "date": "March 2026",
+        "changes": [
+          "AI Bio Generator — generates 3 bio variants in BG and EN with profile analysis",
+          "AI Profile Optimizer — analyzes the profile and gives specific recommendations with a 0-100 score",
+          "AI Follow-up Generator — generates a personalized email after receiving a lead with 1 click",
+          "AI Lead Qualifier — automatically categorizes leads (🔥 Hot / 🟡 Warm / ❄️ Cold)",
+          "AI Weekly Digest — personalized weekly email report with AI analysis",
+          "AI A/B Tester — generates variants for position and bio with visual before/after preview",
+          "Video Bio — video presentation directly on the card with play/pause overlay",
+          "Bio section — text presentation with 'Read more' on the card",
+          "Location map — automatically shows the branch address",
+          "Send Email button — opens the email client with a pre-filled message",
+          "Google Wallet — customize background with preset themes and custom color",
+          "Changelog page — history of all versions and changes",
+          "Redesigned Video Upload page",
+          "Redesigned Google Wallet page with live preview",
+          "BG/EN localization of the Google Wallet card"
+        ]
+      },
+      "v24": {
+        "label": "HubSpot & Analytics",
+        "highlight": "HubSpot integration and improved export",
+        "date": "February 2026",
+        "changes": [
+          "HubSpot integration — sync leads directly to HubSpot CRM",
+          "Bulk sync — sync all leads with one click",
+          "Premium Excel export — .xlsx with Summary BI sheet, KPI cards and conversion rate",
+          "Monthly filter — analyze leads and visits by period",
+          "Server-side pagination — 1700+ employees without lag",
+          "Admin users panel — new design with search, sort and action buttons"
+        ]
+      },
+      "v23": {
+        "label": "Profile & Leads",
+        "highlight": "New profile design and lead management",
+        "date": "January 2026",
+        "changes": [
+          "New leads page design — dark, amber accent, search and sort",
+          "Delete account — full deletion with cascading cleanup of all data",
+          "Card theme system — customizable colors with JSON theme engine",
+          "Cover image — upload and crop a card cover image",
+          "isDirect mode — automatic VCF download on scan",
+          "CSV export of leads"
+        ]
+      },
+      "v22": {
+        "label": "Dashboard",
+        "highlight": "Analytics dashboard for all users",
+        "date": "December 2025",
+        "changes": [
+          "Dashboard with visits, downloads, shares and clicks",
+          "DashboardEvent model — event-based tracking for accurate analytics",
+          "Admin overview — analysis of all 1700+ users",
+          "Conversion rate calculator — leads / visits",
+          "Regional analytics in Excel export"
+        ]
+      },
+      "v21": {
+        "label": "Leads System",
+        "highlight": "System for collecting and managing leads",
+        "date": "November 2025",
+        "changes": [
+          "Lead form on the card — collects contact data from visitors",
+          "Subscribed model — lead database with GDPR consent",
+          "Notifications for new leads",
+          "Message modal — view messages from leads"
+        ]
+      }
+    }
+  },
+  "conversionFoundation": {
+    "hero": {
+      "badge": "Sprint 1 Prototype",
+      "title": "Conversion Foundation",
+      "descriptionPrefix": "A separate internal concept page for the new profile flow with less noise, 3 strong CTAs, event tracking, lead source tracking and a follow-up cadence of",
+      "descriptionHighlightOne": "2 hours",
+      "descriptionHighlightTwo": "24 hours and 7 days",
+      "descriptionSuffix": ".",
+      "stats": {
+        "profile": {
+          "label": "The profile becomes",
+          "value": "A revenue surface"
+        },
+        "source": {
+          "label": "Lead source",
+          "value": "Clearly visible"
+        },
+        "followUp": {
+          "label": "Follow-up",
+          "value": "Automated"
+        }
+      }
+    },
+    "layout": {
+      "eyebrow": "Recommended Profile Layout",
+      "title": "Hero-first, CTA-first, trust-first",
+      "pill": "New structure",
+      "blocks": {
+        "hero": "Hero with 1 headline, 1 proof point and 3 clear CTAs",
+        "trustBar": "Trust bar: license, certificates, reviews, brands",
+        "solutions": "2-3 solutions instead of 12 chaotic links",
+        "booking": "Booking block with specific meeting types",
+        "magnet": "Lead magnet section with gated resource",
+        "proof": "Soft proof: recent wins, case snippets, social proof"
+      }
+    },
+    "ctaSection": {
+      "eyebrow": "3 Main CTA",
+      "title": "Every visit should lead to action",
+      "cardLabel": "CTA {number}",
+      "trackingTitle": "Tracking events",
+      "trackingDetail": "`cta_view`, `cta_click`, `cta_started`, `cta_completed`"
+    },
+    "ctas": {
+      "booking": {
+        "title": "Book a meeting",
+        "subtitle": "The fastest path from tap to conversation",
+        "stat": "31%",
+        "detail": "of clicks lead to a booked consultation"
+      },
+      "inquiry": {
+        "title": "Send an inquiry",
+        "subtitle": "For people who are not ready for a call yet",
+        "stat": "18%",
+        "detail": "leave a question or a specific need"
+      },
+      "resource": {
+        "title": "Get a resource",
+        "subtitle": "Gated checklist, calculator or guide",
+        "stat": "42%",
+        "detail": "enter the funnel through a lead magnet"
+      }
+    },
+    "tracking": {
+      "eyebrow": "Click Tracking",
+      "title": "What we measure from day one",
+      "northStarLabel": "North Star",
+      "northStarValue": "Visit -> Lead -> Meeting",
+      "frameworkTitle": "Minimum analytics framework",
+      "framework": {
+        "ctaCtr": "CTR by CTA and by source",
+        "scrollDepth": "Scroll depth to the booking section",
+        "touchpoints": "First touchpoint and last touchpoint",
+        "magnetConversion": "Conversion by lead magnet type",
+        "replyTime": "Time to first reply",
+        "meetingConversion": "Meeting conversion by profile variant"
+      },
+      "events": {
+        "profileView": { "label": "profile_view", "value": "1,284" },
+        "bookingClick": { "label": "cta_booking_click", "value": "312" },
+        "leadFormClick": { "label": "cta_lead_form_click", "value": "177" },
+        "resourceUnlock": { "label": "resource_unlock", "value": "96" },
+        "leadCreated": { "label": "lead_created", "value": "71" },
+        "meetingBooked": { "label": "meeting_booked", "value": "29" }
+      }
+    },
+    "sources": {
+      "eyebrow": "Lead Source Tracking",
+      "title": "Every lead must have an origin",
+      "rateLabel": "lead rate",
+      "visitsLabel": "Visits",
+      "leadsLabel": "Leads",
+      "items": {
+        "nfcDirect": {
+          "source": "nfc_card_direct",
+          "note": "The main high-intent channel",
+          "visits": "522",
+          "leads": "39",
+          "rate": "7.5%"
+        },
+        "qrBackside": {
+          "source": "qr_backside",
+          "note": "A strong fallback for mobile friction",
+          "visits": "204",
+          "leads": "11",
+          "rate": "5.4%"
+        },
+        "linkedinProfile": {
+          "source": "linkedin_profile",
+          "note": "Useful for warm social traffic",
+          "visits": "171",
+          "leads": "8",
+          "rate": "4.7%"
+        },
+        "expoEvent": {
+          "source": "expo_event_sofia",
+          "note": "This deserves a dedicated campaign mode",
+          "visits": "143",
+          "leads": "9",
+          "rate": "6.3%"
+        },
+        "referralPartner": {
+          "source": "utm_referral_partner",
+          "note": "A good base for a referral engine",
+          "visits": "88",
+          "leads": "4",
+          "rate": "4.5%"
+        }
+      }
+    },
+    "followUp": {
+      "eyebrow": "Follow-up Engine",
+      "title": "Automated cadence: 2 hours -> 24 hours -> 7 days",
+      "description": "This builds on the AI follow-up pieces that already exist in the project and evolves them from a single follow-up into a full conversion flow.",
+      "baseLabel": "Existing base",
+      "baseValue": "`generate-followup.ts` + `cron/follow-up.ts`",
+      "stepLabel": "Step {number}",
+      "messageLogicLabel": "Message logic",
+      "backendTitle": "How the backend flow should work",
+      "backend": {
+        "createdAt": "lead_created_at + last_followup_stage",
+        "skipRules": "skip if there is a reply or a booked meeting",
+        "promptPerStage": "different prompt per stage",
+        "sourceTone": "per-source tone: NFC / event / referral / LinkedIn"
+      },
+      "steps": {
+        "twoHours": {
+          "delay": "2 hours",
+          "title": "Fresh memory follow-up",
+          "purpose": "While the person still remembers the interaction and the conversation.",
+          "message": "A short, warm follow-up with context from the meeting and a soft CTA for a quick call or reply.",
+          "status": "Highest chance of reply"
+        },
+        "twentyFourHours": {
+          "delay": "24 hours",
+          "title": "Value follow-up",
+          "purpose": "If there is no reaction yet, we send value instead of just another reminder.",
+          "message": "Send a useful resource: checklist, mini guide, calculator or case-driven explanation based on the lead's need.",
+          "status": "Turns interest into intent"
+        },
+        "sevenDays": {
+          "delay": "7 days",
+          "title": "Reactivation follow-up",
+          "purpose": "Brings colder leads back into the conversation without sounding desperate.",
+          "message": "A short re-open message with one concrete offer: a meeting, second opinion or a new resource.",
+          "status": "Rescues missed opportunities"
+        }
+      }
+    }
+  }
+}
