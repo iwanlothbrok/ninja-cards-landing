@@ -8,6 +8,7 @@ import { ReactNode } from 'react';
 import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import { locales, type Locale } from '@/config';
+import { SITE_BASE_URL } from '@/data/site-links';
 import Navbar from './components/Navigation';
 import Footer from './components/layout/Footer';
 import CookieBanner from './components/layout/CookieBanner';
@@ -18,28 +19,28 @@ const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 const metadataByLocale: Record<Locale, Metadata> = {
   bg: {
+    metadataBase: new URL(SITE_BASE_URL),
     title: 'Ninja Cards | NFC визитки и дигитални профили',
     description:
       'Ninja Cards помага на професионалисти и екипи да споделят контакти, профили и бранд присъствие чрез премиум NFC визитки и дигитални профили.',
     openGraph: {
       type: 'website',
       title: 'Ninja Cards | NFC визитки и дигитални профили',
-      description:
-        'Разгледай Ninja Cards: премиум NFC визитки и дигитални профили за професионалисти и екипи.',
-      url: 'https://ninja-cards-landing.vercel.app/bg',
+      description: 'Разгледай Ninja Cards: премиум NFC визитки и дигитални профили за професионалисти и екипи.',
+      url: `${SITE_BASE_URL}/bg`,
       siteName: 'Ninja Cards',
     },
   },
   en: {
+    metadataBase: new URL(SITE_BASE_URL),
     title: 'Ninja Cards | NFC Business Cards & Digital Profiles',
     description:
-      'Ninja Cards helps modern teams share contacts, profiles, and brand identity through premium NFC business cards and digital profile experiences.',
+      'Ninja Cards helps professionals share contacts, profiles, and brand identity through premium NFC business cards and digital profile experiences.',
     openGraph: {
       type: 'website',
       title: 'Ninja Cards | NFC Business Cards & Digital Profiles',
-      description:
-        'Explore Ninja Cards, premium NFC business cards and digital profile experiences for modern teams.',
-      url: 'https://ninja-cards-landing.vercel.app/en',
+      description: 'Explore Ninja Cards, premium NFC business cards and digital profile experiences for professionals and teams.',
+      url: `${SITE_BASE_URL}/en`,
       siteName: 'Ninja Cards',
     },
   },

@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { Link, usePathname } from '@/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { LangSwitcher } from './layout/LangSwitcher';
-import { buildLoginUrl } from '@/data/site-links';
+import { buildLoginUrl, buildPlansUrl } from '@/data/site-links';
 import type { Locale } from '@/config';
 import Image from 'next/image';
 
@@ -41,6 +41,8 @@ const Navbar: React.FC = () => {
     { href: '/contact', label: t('menu.contact') },
   ] as const;
 
+  const primaryCta = locale === 'bg' ? 'Започни със Samurai' : 'Start with Samurai';
+
   return (
     <header
       className={`sticky top-0 z-40 w-full transition-all duration-300 ${
@@ -72,12 +74,12 @@ const Navbar: React.FC = () => {
               </ul>
             </nav>
 
-            <Link
-              href="/plans"
+            <a
+              href={buildPlansUrl(locale, 'samurai')}
               className="rounded-full bg-gradient-to-r from-amber-300 via-orange to-amber-500 px-4 py-2 text-sm font-bold text-black shadow-[0_10px_24px_rgba(245,158,11,0.18)]"
             >
-              {t('menu.plans')}
-            </Link>
+              {primaryCta}
+            </a>
           </div>
 
           <button
@@ -130,12 +132,12 @@ const Navbar: React.FC = () => {
                 >
                   {t('menu.login')}
                 </a>
-                <Link
-                  href="/plans"
+                <a
+                  href={buildPlansUrl(locale, 'samurai')}
                   className="rounded-full bg-gradient-to-r from-amber-300 via-orange to-amber-500 px-4 py-3 text-center text-sm font-bold text-black"
                 >
-                  {t('menu.plans')}
-                </Link>
+                  {primaryCta}
+                </a>
               </div>
             </div>
           ) : null}

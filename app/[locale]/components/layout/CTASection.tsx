@@ -1,7 +1,6 @@
 'use client';
 
-import { Link } from '@/navigation';
-import { buildPlanSignupUrl } from '@/data/site-links';
+import { buildPlanSignupUrl, ENTERPRISE_CONTACT_URL } from '@/data/site-links';
 import type { Locale } from '@/config';
 import { motion } from 'framer-motion';
 import { useLocale } from 'next-intl';
@@ -13,41 +12,44 @@ export default function CTASection() {
     locale === 'bg'
       ? {
           eyebrow: 'Готови за старт',
-          title: 'Ако искаш следващата ти визитка да води до контакт, лийд и follow-up, започни със Samurai.',
+          title: 'Започни сега, докато първата карта е безплатна и 30-дневната гаранция маха риска.',
           subtitle:
-            'Първата карта е безплатна с един индивидуален профил. Платените планове се тестват 30 дни, а за екипи започваме с безплатен пилот.',
+            'Не е нужно да вярваш на обещания. Тествай реалния flow за lead capture, follow-up и аналитики. Ако не ти носи повече лийдове до 30 дни, връщаме парите.',
           bullets: [
-            'Започваш с нисък риск',
-            'Получаваш реална следваща стъпка след среща',
-            'Можеш да надградиш към екипен rollout',
+            '30 дни гаранция за повече лийдове или връщаме парите',
+            'Сигурно продължение към ninjacardsnfc.com',
+            'Безплатен пилот за екипи при нужда',
           ],
-          primaryCta: 'Избери Samurai',
-          secondaryCta: 'Виж дизайните',
-          note: 'Shogun е за екипи, фирмен брандинг и централизирано управление.',
+          primaryCta: 'Започни 30 дни безплатно',
+          secondaryCta: 'Говори с нас за екип',
+          note: 'Checkout и управлението на абонамента продължават в NinjaCardsNFC.com, където е и реалният продукт.',
+          guarantee: 'Гаранцията важи за първите 30 дни от платения план Samurai. Ако го използваш реално и не виждаш повече лийдове, връщаме парите.',
         }
       : {
           eyebrow: 'Ready to start',
-          title: 'If you want your next business card to lead to a saved contact, a lead, and follow-up, start with Samurai.',
+          title: 'Start now while the first card is free and the 30-day guarantee removes the risk.',
           subtitle:
-            'The first card is free with one individual profile. Paid plans can be tested for 30 days, and for teams we start with a free pilot.',
+            'You do not have to buy on faith. Test the real lead capture, follow-up, and analytics flow first. If it does not bring you more leads within 30 days, we give you your money back.',
           bullets: [
-            'Low-risk start',
-            'A real next step after every strong meeting',
-            'Room to scale into team rollout',
+            '30-day more-leads guarantee or your money back',
+            'Secure continuation on NinjaCardsNFC.com',
+            'Free pilot available for teams',
           ],
-          primaryCta: 'Choose Samurai',
-          secondaryCta: 'See designs',
-          note: 'Shogun is for teams, company branding, and centralized management.',
+          primaryCta: 'Start 30-day free trial',
+          secondaryCta: 'Talk about team rollout',
+          note: 'Checkout and subscription management continue on NinjaCardsNFC.com, where the actual product lives.',
+          guarantee:
+            'The guarantee applies to the first 30 days of the paid Samurai plan. If you use it in real meetings and do not see more leads, we give you your money back.',
         };
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-black via-gray-950 to-black py-16 text-white sm:py-20">
+    <section className="relative overflow-hidden bg-[#05070b] py-14 text-white sm:py-18">
       <div className="relative mx-auto max-w-6xl px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="border-t border-white/10 pt-10"
+          className="rounded-[2rem] border border-orange/15 bg-[linear-gradient(135deg,rgba(245,158,11,0.12),rgba(8,10,15,0.94)_40%)] px-6 py-8 sm:px-8 sm:py-10"
         >
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-orange">{content.eyebrow}</p>
@@ -57,7 +59,7 @@ export default function CTASection() {
 
           <div className="mt-8 grid gap-4 md:grid-cols-3">
             {content.bullets.map((item) => (
-              <div key={item} className="border-b border-white/10 pb-4 text-center text-sm font-medium text-gray-100">
+              <div key={item} className="border-l border-white/10 px-2 text-center text-sm font-medium text-gray-100">
                 {item}
               </div>
             ))}
@@ -70,15 +72,16 @@ export default function CTASection() {
             >
               {content.primaryCta}
             </a>
-            <Link
-              href="/cards"
+            <a
+              href={ENTERPRISE_CONTACT_URL}
               className="rounded-full border border-white/15 px-6 py-3.5 text-center text-sm font-semibold text-white transition hover:bg-white/5 sm:px-7 sm:text-base"
             >
               {content.secondaryCta}
-            </Link>
+            </a>
           </div>
 
           <p className="mt-6 text-center text-sm text-gray-400">{content.note}</p>
+          <p className="mx-auto mt-3 max-w-3xl text-center text-xs leading-6 text-gray-500">{content.guarantee}</p>
         </motion.div>
       </div>
     </section>

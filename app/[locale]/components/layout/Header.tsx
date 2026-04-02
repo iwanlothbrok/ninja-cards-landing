@@ -5,9 +5,18 @@ interface HeaderProps {
   textOne: string;
   textTwo: string;
   textThree: string;
+  eyebrow?: string;
+  description?: string;
 }
 
-const Header: React.FC<HeaderProps> = ({ pageInformation, textOne, textTwo, textThree }) => {
+const Header: React.FC<HeaderProps> = ({
+  pageInformation,
+  textOne,
+  textTwo,
+  textThree,
+  eyebrow = 'Ninja Cards',
+  description = 'Built for fast sharing, clean follow-up, and a stronger first impression.',
+}) => {
   const items = [textOne, textTwo, textThree].filter(Boolean);
 
   return (
@@ -21,13 +30,13 @@ const Header: React.FC<HeaderProps> = ({ pageInformation, textOne, textTwo, text
       <div className="relative mx-auto max-w-6xl px-4 pb-10 pt-20 sm:pt-24 lg:px-8">
         <div className="max-w-3xl">
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.26em] text-orange/90">
-            Ninja Cards
+            {eyebrow}
           </p>
           <h1 className="text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
             {pageInformation}
           </h1>
           <p className="mt-4 max-w-2xl text-sm leading-6 text-gray-300 sm:text-base">
-            Built for fast sharing, clean follow-up, and a stronger first impression.
+            {description}
           </p>
         </div>
 
