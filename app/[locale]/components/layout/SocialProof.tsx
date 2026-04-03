@@ -12,175 +12,177 @@ const logos = [
   { src: '/clients/inv.png', alt: 'Invest Club' },
 ];
 
+type SocialCopy = {
+  eyebrow: string;
+  title: string;
+  subtitle: string;
+  stats: Array<{ value: string; label: string }>;
+  anchorEyebrow: string;
+  anchorTitle: string;
+  anchorText: string;
+  anchorPoints: string[];
+  logosLabel: string;
+  testimonialsTitle: string;
+  testimonials: Array<{
+    quote: string;
+    name: string;
+    role: string;
+    metric: string;
+  }>;
+};
+
 export default function SocialProof() {
   const locale = useLocale() as Locale;
-  const copy =
+  const copy: SocialCopy =
     locale === 'bg'
       ? {
-          eyebrow: 'Доказателство и fit',
-          title: 'Работи най-добре за хора и екипи, които печелят доверие в срещата и искат реален follow-up след нея.',
+          eyebrow: 'Доказателство',
+          title: 'Не е просто модерна визитка. Това е по-силен follow-up след добра среща.',
           subtitle:
-            'Ако си консултант, търговец, основател или част от екип, който редовно се среща с клиенти, Ninja Cards прави следващата стъпка по-лесна от хартиена визитка.',
-          statLine: '15 806 сканирания и 270+ активни дигитални карти.',
-          bankLine: 'Използвано от Postbank за екипен rollout, както и от Trivium, Home2You и други бизнеси, които искат по-силен first impression и по-лесен follow-up.',
-          fitTitle: 'Най-подходящо за',
-          fitItems: ['консултанти и advisory услуги', 'търговци и account мениджъри', 'основатели, партньори и екипи'],
-          proofTitle: 'Какво показват данните',
-          proofItems: [
-            'При Митко Абаджиев lead form-ата взима контакт почти от всяка среща.',
-            'При Валери Денисенко 200 сканирания за 1 месец водят до 5 сделки.',
-            'Използва се както за лични профили, така и за фирмен rollout, включително и в Postbank.',
+            'Вместо контакт, който се губи, Ninja Card превръща интереса в запазен контакт, сканиране и реална следваща стъпка.',
+          stats: [
+            { value: '15 806', label: 'сканирания до момента' },
+            { value: '270+', label: 'активни дигитални карти' },
+            { value: 'Postbank', label: 'доказан екипен rollout' },
           ],
-          testimonialsTitle: 'Какво казват клиентите',
+          anchorEyebrow: 'Какво това показва',
+          anchorTitle: 'Когато срещата е добра, Ninja Card прави по-лесно тя да продължи.',
+          anchorText:
+            'При правилно използване едно сканиране не е празно число. Това е човек, който е влязъл в профила ти, видял е следващата стъпка и е показал реален интерес.',
+          anchorPoints: [
+            'Митко Абаджиев: контакт почти след всяка среща чрез lead form.',
+            'Емо Ангелов: 500+ сканирания на профила и 10/10 оценка.',
+            'Валери Денисенко: 200 сканирания за 1 месец и силен входящ интерес.',
+          ],
+          logosLabel: 'Използвано от екипи и бизнеси, които искат по-силен first impression.',
+          testimonialsTitle: 'Реални думи от клиенти',
           testimonials: [
             {
               quote: 'На почти всяка среща си тръгвам с нов контакт, защото хората попълват формата веднага.',
               name: 'Митко Абаджиев',
               role: 'финансов консултант',
-              metric: '10/10 за лесно събиране на контакти',
-            },
-            {
-              quote: 'За един месец направих 200 сканирания и от тях ми излязоха 5 сделки.',
-              name: 'Валери Денисенко',
-              role: 'real estate agent',
-              metric: '200 scans -> 5 deals',
+              metric: '10/10 за lead capture',
             },
             {
               quote: 'Имам над 500 сканирания на профила си и за мен това е 10 от 10.',
               name: 'Емо Ангелов',
               role: 'XAXX',
-              metric: '500 scans · 10/10',
+              metric: '500+ scans',
+            },
+            {
+              quote: 'За един месец направих 200 сканирания. Това са 200 човека, които реално влязоха и проявиха интерес.',
+              name: 'Валери Денисенко',
+              role: 'sales / networking use case',
+              metric: '200 scans in 30 days',
             },
           ],
-          caseStudyLabel: 'Мини кейс',
-          caseStudyTitle: 'От сканиране до сделки в рамките на 30 дни.',
-          caseStudyBody:
-            'Валери Денисенко използва Ninja Card в реални срещи и за 1 месец прави 200 сканирания, от които идват 5 сделки. Това е силен пример, защото показва, че картата не спира до first impression, а помага разговорът да продължи до резултат.',
-          caseStudyStat: '200 -> 5',
-          caseStudyCaption: 'сканирания към сделки за 1 месец',
         }
       : {
-          eyebrow: 'Proof and fit',
-          title: 'It works best for people and teams who build trust in the meeting and want a real follow-up after it.',
+          eyebrow: 'Proof',
+          title: 'This is not just a modern business card. It creates a stronger follow-up after a good meeting.',
           subtitle:
-            'If you are a consultant, salesperson, founder, or part of a team that regularly meets prospects face to face, Ninja Cards makes the next step easier than a paper card.',
-          statLine: '15,806 scans and 270+ active digital cards.',
-          bankLine: 'Used by Postbank for team rollout, as well as by Trivium, Home2You, and businesses that want a stronger first impression and cleaner follow-up.',
-          fitTitle: 'Best fit for',
-          fitItems: ['consultants and advisory services', 'salespeople and account managers', 'founders, partners, and growing teams'],
-          proofTitle: 'What the proof already shows',
-          proofItems: [
-            'Matey Abadjiev says the lead form captures contacts from almost every meeting.',
-            'Valeri Denisenko generated 200 scans in 1 month and closed 5 deals from them.',
-            'It already works for solo profiles and company rollout, including Postbank.',
+            'Instead of a contact that gets lost, Ninja Card turns interest into a saved contact, a scan, and a clear next step.',
+          stats: [
+            { value: '15,806', label: 'total scans so far' },
+            { value: '270+', label: 'active digital cards' },
+            { value: 'Postbank', label: 'proven team rollout' },
           ],
-          testimonialsTitle: 'What customers say',
+          anchorEyebrow: 'What this proves',
+          anchorTitle: 'When the meeting goes well, Ninja Card makes it easier for the conversation to continue.',
+          anchorText:
+            'Used the right way, a scan is not vanity. It is a person who opened your profile, saw the next step, and showed real interest.',
+          anchorPoints: [
+            'Matey Abadjiev: a contact from almost every meeting through the lead form.',
+            'Emo Angelov: 500+ profile scans and a 10/10 rating.',
+            'Valeri Denisenko: 200 scans in 1 month and strong inbound interest.',
+          ],
+          logosLabel: 'Used by teams and businesses that want a stronger first impression.',
+          testimonialsTitle: 'Real words from customers',
           testimonials: [
             {
               quote: 'On almost every meeting, I leave with a new contact because people fill in the form on the spot.',
               name: 'Matey Abadjiev',
               role: 'finance consultant',
-              metric: '10/10 for easy lead capture',
-            },
-            {
-              quote: 'In one month I got 200 scans, and 5 deals came from them.',
-              name: 'Valeri Denisenko',
-              role: 'real estate agent',
-              metric: '200 scans -> 5 deals',
+              metric: '10/10 for lead capture',
             },
             {
               quote: 'My profile has over 500 scans, and for me this is a 10 out of 10.',
               name: 'Emo Angelov',
               role: 'XAXX',
-              metric: '500 scans · 10/10',
+              metric: '500+ scans',
+            },
+            {
+              quote: 'In one month I got 200 scans. That means 200 people actually opened the profile and showed interest.',
+              name: 'Valeri Denisenko',
+              role: 'sales / networking use case',
+              metric: '200 scans in 30 days',
             },
           ],
-          caseStudyLabel: 'Mini case study',
-          caseStudyTitle: 'From scans to deals within 30 days.',
-          caseStudyBody:
-            'Valeri Denisenko used Ninja Card in real meetings and generated 200 scans in 1 month, which led to 5 deals. That matters because it shows the card does not stop at the first impression. It helps the conversation continue into a measurable result.',
-          caseStudyStat: '200 -> 5',
-          caseStudyCaption: 'scans into deals in 1 month',
         };
 
   return (
-    <section className="border-y border-white/8 bg-[#080b10] py-12 text-white sm:py-14">
+    <section className="border-y border-white/8 bg-[#080b10] py-14 text-white sm:py-16">
       <div className="mx-auto max-w-6xl px-4 lg:px-8">
-        <div className="grid gap-10 lg:grid-cols-[0.95fr,1.05fr] lg:items-start">
+        <div className="grid gap-8 lg:grid-cols-[0.9fr,1.1fr] lg:items-start">
           <div className="max-w-2xl">
             <p className="text-xs font-semibold uppercase tracking-[0.24em] text-orange">{copy.eyebrow}</p>
-            <h2 className="mt-3 text-2xl font-black leading-tight sm:text-3xl">{copy.title}</h2>
+            <h2 className="mt-3 text-3xl font-black leading-tight sm:text-4xl">{copy.title}</h2>
             <p className="mt-4 text-sm leading-6 text-gray-300 sm:text-base">{copy.subtitle}</p>
-
-            <div className="mt-6 border-l border-orange/30 pl-4">
-              <div className="text-3xl font-black text-white">{copy.statLine}</div>
-              <p className="mt-2 text-sm leading-6 text-gray-400">{copy.bankLine}</p>
-            </div>
           </div>
 
-          <div className="grid gap-6 sm:grid-cols-2">
-            <div className="border-l border-white/10 pl-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-orange">{copy.fitTitle}</p>
-              <ul className="mt-4 space-y-3">
-                {copy.fitItems.map((item) => (
-                  <li key={item} className="text-sm leading-6 text-gray-200">
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-
-            <div className="border-l border-white/10 pl-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-orange">{copy.proofTitle}</p>
-              <ul className="mt-4 space-y-3">
-                {copy.proofItems.map((item) => (
-                  <li key={item} className="text-sm leading-6 text-gray-200">
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-3 border-t border-white/10 pt-6 sm:grid-cols-3 lg:grid-cols-5">
-          {logos.map((logo) => (
-            <div key={logo.alt} className="flex min-h-16 items-center justify-center px-2 py-4 opacity-80">
-              <Image src={logo.src} alt={logo.alt} width={180} height={72} className="max-h-10 w-auto object-contain opacity-80" />
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-10 border-t border-white/10 pt-8">
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange">{copy.testimonialsTitle}</p>
-          <div className="mt-5 grid gap-4 lg:grid-cols-3">
-            {copy.testimonials.map((item) => (
-              <article key={item.name} className="rounded-[1.5rem] border border-white/10 bg-white/[0.03] p-5">
-                <p className="text-sm leading-6 text-gray-100">
-                  &ldquo;{item.quote}&rdquo;
-                </p>
-                <div className="mt-5 border-t border-white/10 pt-4">
-                  <p className="text-sm font-bold text-white">{item.name}</p>
-                  <p className="mt-1 text-xs uppercase tracking-[0.16em] text-gray-400">{item.role}</p>
-                  <p className="mt-3 text-xs font-semibold uppercase tracking-[0.18em] text-orange">{item.metric}</p>
+          <div className="rounded-[2rem] border border-white/10 bg-[linear-gradient(135deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] p-6 shadow-[0_0_80px_rgba(251,146,60,0.08)]">
+            <div className="grid gap-4 sm:grid-cols-3">
+              {copy.stats.map((item) => (
+                <div key={item.label} className="rounded-[1.5rem] border border-white/10 bg-black/20 p-5">
+                  <div className="text-2xl font-black text-white sm:text-3xl">{item.value}</div>
+                  <p className="mt-2 text-sm leading-6 text-gray-300">{item.label}</p>
                 </div>
-              </article>
+              ))}
+            </div>
+
+            <div className="mt-5 rounded-[1.5rem] border border-amber-300/20 bg-amber-300/5 p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange">{copy.anchorEyebrow}</p>
+              <h3 className="mt-3 text-2xl font-black leading-tight text-white">{copy.anchorTitle}</h3>
+              <p className="mt-3 text-sm leading-6 text-gray-200">{copy.anchorText}</p>
+              <div className="mt-5 grid gap-3 sm:grid-cols-3">
+                {copy.anchorPoints.map((item) => (
+                  <div key={item} className="rounded-2xl border border-white/10 bg-black/25 p-4 text-sm leading-6 text-gray-200">
+                    {item}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-8 rounded-[2rem] border border-white/10 bg-white/[0.03] px-5 py-5">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange">{copy.logosLabel}</p>
+          <div className="mt-4 grid grid-cols-2 gap-x-4 gap-y-3 sm:grid-cols-3 lg:grid-cols-5">
+            {logos.map((logo) => (
+              <div key={logo.alt} className="flex min-h-16 items-center justify-center rounded-2xl border border-white/10 bg-black/20 px-2 py-4">
+                <Image src={logo.src} alt={logo.alt} width={180} height={72} className="max-h-10 w-auto object-contain opacity-80" />
+              </div>
             ))}
           </div>
         </div>
 
-        <div className="mt-8 border-t border-white/10 pt-8">
-          <div className="grid gap-6 lg:grid-cols-[0.95fr,1.05fr] lg:items-end">
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange">{copy.caseStudyLabel}</p>
-              <h3 className="mt-3 text-2xl font-black leading-tight text-white">{copy.caseStudyTitle}</h3>
-              <p className="mt-4 max-w-2xl text-sm leading-6 text-gray-300">{copy.caseStudyBody}</p>
-            </div>
-
-            <div className="border-l border-orange/30 pl-5">
-              <div className="text-5xl font-black text-orange">{copy.caseStudyStat}</div>
-              <p className="mt-2 text-sm uppercase tracking-[0.18em] text-orange/80">{copy.caseStudyCaption}</p>
-            </div>
+        <div className="mt-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-orange">{copy.testimonialsTitle}</p>
+          <div className="mt-5 grid gap-4 lg:grid-cols-3">
+            {copy.testimonials.map((item) => (
+              <article key={item.name} className="rounded-[1.75rem] border border-white/10 bg-white/[0.03] p-5">
+                <p className="text-sm leading-6 text-gray-100">&ldquo;{item.quote}&rdquo;</p>
+                <div className="mt-5 flex items-end justify-between gap-4 border-t border-white/10 pt-4">
+                  <div>
+                    <p className="text-sm font-bold text-white">{item.name}</p>
+                    <p className="mt-1 text-xs uppercase tracking-[0.16em] text-gray-400">{item.role}</p>
+                  </div>
+                  <p className="rounded-full border border-amber-300/30 bg-amber-300/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-orange">
+                    {item.metric}
+                  </p>
+                </div>
+              </article>
+            ))}
           </div>
         </div>
       </div>

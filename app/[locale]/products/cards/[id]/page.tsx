@@ -32,8 +32,8 @@ export default function ProductPageContent({
     <div className="text-white min-h-screen">
       <Product
         title={product.name}
-        price={product.priceBgn.toString()}
-        oldPrice={product.oldPriceBgn ?? 0}
+        price={product.priceEur.toString()}
+        oldPrice={product.oldPriceEur ?? 0}
         imageUrls={product.gallery}
         description={product.description}
         badge={product.badge}

@@ -7,10 +7,10 @@ import type { Locale } from '@/config';
 import { useLocale } from 'next-intl';
 
 const contactActions = [
-  { label: 'Email', value: 'hello@ninjacardsnfc.com', href: 'mailto:hello@ninjacardsnfc.com' },
-  { label: 'Phone', value: '+359 89 898 6947', href: 'tel:+359898986947' },
-  { label: 'Instagram', value: '@ninja.cards', href: 'https://www.instagram.com/ninja.cards' },
-  { label: 'LinkedIn', value: 'Ninja Cards', href: 'https://www.linkedin.com/company/106287992' },
+  { label: 'Contact', value: 'Ivan Ivanov', href: 'mailto:ivan.ivanov@ninjacardsnfc.com' },
+  { label: 'Phone', value: '+359 88 904 4614', href: 'tel:+359889044614' },
+  { label: 'Email', value: 'ivan.ivanov@ninjacardsnfc.com', href: 'mailto:ivan.ivanov@ninjacardsnfc.com' },
+  { label: 'Website', value: 'ninjacardsnfc.com', href: 'https://www.ninjacardsnfc.com' },
 ];
 
 export default function ContactPageClient() {
@@ -19,60 +19,44 @@ export default function ContactPageClient() {
   const copy =
     locale === 'bg'
       ? {
-          headerDescription:
-            'Тази страница трябва да помага на клиента да направи следваща стъпка: да избере Samurai, да поиска помощ за правилния дизайн или да отвори разговор за екипен rollout.',
+          headerDescription: 'Свържи се директно с Ivan Ivanov, ако искаш бърз старт със Samurai или правилната карта за теб и твоя екип.',
           soloEyebrow: 'За индивидуални професионалисти',
           soloTitle: 'Най-бързият път е да започнеш със Samurai.',
-          soloText:
-            'Ако искаш визитката ти да води до по-лесно запазване на контакт, лийд форма и измерим интерес след срещата, започни от плана и после избери дизайна.',
+          soloText: 'Ако искаш по-силен follow-up, lead form и analytics след срещите, натам трябва да води страницата.',
           soloPrimary: 'Избери Samurai',
           soloSecondary: 'Виж дизайните',
           teamEyebrow: 'За екипи и компании',
-          teamTitle: 'Shogun е отделният разговор за пилот и rollout.',
-          teamText:
-            'Когато търсиш централен контрол, фирмен брандинг и управление на повече профили, използвай директния екипен контакт вместо обща заявка.',
+          teamTitle: 'За rollout и фирмен setup пиши директно.',
+          teamText: 'Когато търсиш повече профили, фирмен branding и централен контрол, говорим директно за rollout, а не през обща форма.',
           teamCta: 'Говори с нас за екип',
           proofTitle: 'Защо да действаш сега',
-          proofItems: [
-            'Първата карта е безплатна с един индивидуален профил.',
-            'Платените планове се тестват 30 дни с нисък риск.',
-            '15 806 сканирания и 270+ активни карти показват реална употреба.',
-          ],
+          proofItems: ['Първата карта е безплатна с един индивидуален профил.', 'Samurai се тества 30 дни.', '15 806 сканирания и 270+ активни карти показват реална употреба.'],
           contactTitle: 'Предпочиташ директен контакт?',
-          contactText:
-            'Изпрати ни стил на картата, брой профили и бранд насока. Така ще ти върнем по-точна препоръка вместо общ отговор.',
+          contactText: 'Изпрати ни дали искаш една карта, Samurai старт или rollout за екип и ще върнем точна препоръка.',
         }
       : {
-          headerDescription:
-            'This page should help the buyer take the next step: choose Samurai, ask for the right card style, or open a team-rollout conversation.',
+          headerDescription: 'Talk directly to Ivan Ivanov if you want a fast Samurai start or the right setup for your card and team.',
           soloEyebrow: 'For individual professionals',
           soloTitle: 'The fastest path is to start with Samurai.',
-          soloText:
-            'If you want your business card to lead to easier contact saving, lead capture, and measurable post-meeting interest, start with the plan and then choose the card design.',
+          soloText: 'If you want stronger follow-up, a lead form, and analytics after meetings, that is where the page should lead.',
           soloPrimary: 'Choose Samurai',
           soloSecondary: 'See card designs',
           teamEyebrow: 'For teams and companies',
-          teamTitle: 'Shogun is the separate conversation for pilots and rollout.',
-          teamText:
-            'When you need centralized control, company branding, and management for more profiles, use the direct team-sales path instead of a generic inquiry.',
+          teamTitle: 'For rollout and company setup, contact us directly.',
+          teamText: 'If you need more profiles, company branding, and central control, we should talk directly about rollout instead of sending you through a generic form.',
           teamCta: 'Talk to us about teams',
           proofTitle: 'Why act now',
-          proofItems: [
-            'Your first card is free with one individual profile.',
-            'Paid plans can be tested for 30 days with low risk.',
-            '15,806 scans and 270+ active cards show real-world usage.',
-          ],
+          proofItems: ['Your first card is free with one individual profile.', 'Samurai can be tested for 30 days.', '15,806 scans and 270+ active cards show real usage.'],
           contactTitle: 'Prefer direct contact?',
-          contactText:
-            'Send us the card style, quantity, and branding direction you want so we can recommend the right setup instead of sending a generic reply.',
+          contactText: 'Tell us whether you want one card, a Samurai start, or a team rollout and we will recommend the right setup.',
         };
 
   return (
     <div className="min-h-screen bg-black text-white">
       <Header
         pageInformation={locale === 'bg' ? 'Контакт' : 'Contact'}
-        textOne={locale === 'bg' ? 'Samurai' : 'Samurai'}
-        textTwo={locale === 'bg' ? 'Екипен пилот' : 'Team pilot'}
+        textOne="Samurai"
+        textTwo={locale === 'bg' ? 'Екипен rollout' : 'Team rollout'}
         textThree={locale === 'bg' ? 'Бърз старт' : 'Fast start'}
         eyebrow={locale === 'bg' ? 'Следваща стъпка' : 'Next step'}
         description={copy.headerDescription}

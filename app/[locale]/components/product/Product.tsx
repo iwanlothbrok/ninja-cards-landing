@@ -72,8 +72,8 @@ const Product: React.FC<ProductProps> = ({ title, price, oldPrice, imageUrls, de
 
           <h1 className="text-4xl font-extrabold text-white mt-8 text-center">{title}</h1>
           <div className="flex items-center justify-center gap-4 mt-4">
-            {oldPrice > 0 ? <p className="text-3xl text-red-500 line-through">{oldPrice} BGN</p> : null}
-            <p className="text-5xl font-bold text-green-500">{price} BGN</p>
+            {oldPrice > 0 ? <p className="text-3xl text-red-500 line-through">€{oldPrice}</p> : null}
+            <p className="text-5xl font-bold text-green-500">€{price}</p>
           </div>
 
           <div className="mt-6 text-center">

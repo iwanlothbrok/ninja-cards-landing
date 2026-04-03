@@ -41,11 +41,11 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
         <h2 className="text-2xl font-bold text-black transition-colors duration-300 group-hover:text-orange-400">
           {product.name}
         </h2>
-        {product.oldPriceBgn ? (
-          <p className="text-3xl text-red-500 line-through">{product.oldPriceBgn} {t('currency')}</p>
+        {product.oldPriceEur ? (
+          <p className="text-3xl text-red-500 line-through">€{product.oldPriceEur}</p>
         ) : null}
         <p className="text-2xl font-semibold text-green-500 mt-2">
-          {product.priceBgn.toFixed(2)} {t('currency')}
+          €{product.priceEur.toFixed(2)}
         </p>
         <p className="text-gray-500 mt-3">{product.shortDescription}</p>
 
