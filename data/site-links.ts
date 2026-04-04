@@ -3,7 +3,7 @@ import type { Locale } from '@/config';
 export const SITE_BASE_URL = 'https://ninja-cards-landing.vercel.app';
 export const APP_BASE_URL = 'https://www.ninjacardsnfc.com';
 export const LOGIN_URL = `${APP_BASE_URL}/bg/login`;
-export const ENTERPRISE_CONTACT_URL = 'mailto:hello@ninjacardsnfc.com';
+export const ENTERPRISE_CONTACT_URL = `${APP_BASE_URL}/plans`;
 
 type PlanKey = 'shinobi' | 'samurai' | 'shogun';
 

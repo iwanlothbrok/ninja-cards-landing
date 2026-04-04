@@ -8,7 +8,9 @@ import { locales, type Locale } from '@/config';
 import { createPageMetadata } from '@/data/page-metadata';
 import type { Metadata } from 'next';
 
-export function generateStaticParams() {
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
   return (locales as readonly string[]).map((locale) => ({ locale }));
 }
 

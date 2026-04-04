@@ -11,39 +11,24 @@ export default function CTASection() {
   const content =
     locale === 'bg'
       ? {
-          eyebrow: 'Готови за старт',
-          title: 'Започни сега, докато първата карта е безплатна и 30-дневната гаранция маха риска.',
-          subtitle:
-            'Не е нужно да вярваш на обещания. Тествай реалния flow за lead capture, follow-up и аналитики. Ако не ти носи повече лийдове до 30 дни, връщаме парите.',
-          bullets: [
-            '30 дни гаранция за повече лийдове или връщаме парите',
-            'Сигурно продължение към ninjacardsnfc.com',
-            'Безплатен пилот за екипи при нужда',
-          ],
-          primaryCta: 'Започни 30 дни безплатно',
-          secondaryCta: 'Говори с нас за екип',
-          note: 'Checkout и управлението на абонамента продължават в NinjaCardsNFC.com, където е и реалният продукт.',
-          guarantee: 'Гаранцията важи за първите 30 дни от платения план Samurai. Ако го използваш реално и не виждаш повече лийдове, връщаме парите.',
+          eyebrow: 'Старт',
+          title: 'Започни Samurai за 30 дни и виж как работи в реални срещи.',
+          subtitle: 'Идеята е проста: тестваш, виждаш резултат и преценяваш дали това е правилната следваща стъпка за теб.',
+          bullets: ['30 дни тест', 'Нисък риск', 'Продължаваш в плановете'],
+          primaryCta: 'Започни 30 дни',
+          secondaryCta: 'Виж плановете',
         }
       : {
-          eyebrow: 'Ready to start',
-          title: 'Start now while the first card is free and the 30-day guarantee removes the risk.',
-          subtitle:
-            'You do not have to buy on faith. Test the real lead capture, follow-up, and analytics flow first. If it does not bring you more leads within 30 days, we give you your money back.',
-          bullets: [
-            '30-day more-leads guarantee or your money back',
-            'Secure continuation on NinjaCardsNFC.com',
-            'Free pilot available for teams',
-          ],
-          primaryCta: 'Start 30-day free trial',
-          secondaryCta: 'Talk about team rollout',
-          note: 'Checkout and subscription management continue on NinjaCardsNFC.com, where the actual product lives.',
-          guarantee:
-            'The guarantee applies to the first 30 days of the paid Samurai plan. If you use it in real meetings and do not see more leads, we give you your money back.',
+          eyebrow: 'Start',
+          title: 'Start Samurai for 30 days and see how it works in real meetings.',
+          subtitle: 'The idea is simple: test it, see the interest, and keep it only if it feels like the right next step.',
+          bullets: ['30-day trial', 'Low risk', 'Continue in plans'],
+          primaryCta: 'Start 30 days',
+          secondaryCta: 'See plans',
         };
 
   return (
-    <section className="relative overflow-hidden bg-[#05070b] py-14 text-white sm:py-18">
+    <section className="relative overflow-hidden bg-[#05070b] py-12 text-white sm:py-14">
       <div className="relative mx-auto max-w-6xl px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -54,12 +39,12 @@ export default function CTASection() {
           <div className="mx-auto max-w-3xl text-center">
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.3em] text-orange">{content.eyebrow}</p>
             <h2 className="text-2xl font-black leading-tight sm:text-3xl lg:text-4xl">{content.title}</h2>
-            <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-gray-300 sm:text-base">{content.subtitle}</p>
+            <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-gray-200">{content.subtitle}</p>
           </div>
 
-          <div className="mt-8 grid gap-4 md:grid-cols-3">
+          <div className="mt-6 grid gap-3 md:grid-cols-3">
             {content.bullets.map((item) => (
-              <div key={item} className="border-l border-white/10 px-2 text-center text-sm font-medium text-gray-100">
+              <div key={item} className="rounded-2xl border border-white/10 bg-black/20 px-4 py-3 text-center text-sm font-semibold text-gray-100">
                 {item}
               </div>
             ))}
@@ -68,20 +53,17 @@ export default function CTASection() {
           <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
             <a
               href={buildPlanSignupUrl(locale, 'samurai')}
-              className="rounded-full bg-gradient-to-r from-orange via-amber-500 to-yellow-500 px-6 py-3.5 text-center text-sm font-bold text-black transition-transform hover:scale-[1.02] sm:px-7 sm:text-base"
+              className="rounded-full bg-gradient-to-r from-orange via-amber-400 to-yellow-300 px-7 py-4 text-center text-sm font-black text-black shadow-[0_14px_40px_rgba(245,158,11,0.3)] ring-2 ring-amber-200/30 transition-transform hover:scale-[1.03] sm:px-8 sm:text-base"
             >
               {content.primaryCta}
             </a>
             <a
               href={ENTERPRISE_CONTACT_URL}
-              className="rounded-full border border-white/15 px-6 py-3.5 text-center text-sm font-semibold text-white transition hover:bg-white/5 sm:px-7 sm:text-base"
+              className="rounded-full border border-white/20 bg-white/10 px-7 py-4 text-center text-sm font-bold text-white transition hover:bg-white/15 sm:px-8 sm:text-base"
             >
               {content.secondaryCta}
             </a>
           </div>
-
-          <p className="mt-6 text-center text-sm text-gray-400">{content.note}</p>
-          <p className="mx-auto mt-3 max-w-3xl text-center text-xs leading-6 text-gray-500">{content.guarantee}</p>
         </motion.div>
       </div>
     </section>
