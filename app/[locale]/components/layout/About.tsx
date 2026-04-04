@@ -15,22 +15,21 @@ export default function About() {
           eyebrow: 'Как работи',
           title: 'Как работи Ninja Card след самото докосване',
           subtitle: 'Процесът е прост, а точно това го прави силен в реални срещи.',
+          intro:
+            'Важното не е само картата да се отвори. Важното е какво става след това: човекът да те запази, да види контактите ти и да има причина да продължи разговора.',
           steps: [
             { index: '01', title: 'Докосване', text: 'Профилът се отваря веднага.' },
-            { index: '02', title: 'Профил', text: 'Изглежда професионално.' },
-            { index: '03', title: 'Контакт', text: 'Запазва се лесно.' },
+            { index: '02', title: 'Профил', text: 'Изглежда професионално и подредено.' },
+            { index: '03', title: 'Контакт', text: 'Запазва се лесно в телефона.' },
             { index: '04', title: 'Следваща стъпка', text: 'Samurai насочва разговора нататък.' },
           ],
+          valueTitle: 'Защо това работи',
+          valuePoints: ['По-малко триене', 'По-лесно запазване на контакт', 'По-силен последващ контакт'],
           videoEyebrow: 'Виж го в действие',
           videoTitle: 'Видеото обяснява повече от дълъг текст.',
           videoText: 'Ще видиш как човек стига от докосване до профил, контакт и ясна следваща стъпка.',
           processTitle: 'Как започваш със Samurai',
-          process: [
-            'Избираш Samurai',
-            'Стартираш 30 дни',
-            'Правим картата',
-            'Започваш да я ползваш',
-          ],
+          process: ['Избираш Samurai', 'Стартираш 30 дни', 'Правим картата', 'Започваш да я ползваш'],
           resultLabel: 'Как да го разбираш',
           resultValue: '200',
           resultText: 'сканирания означават 200 човека, които са отворили профила и са показали интерес.',
@@ -39,14 +38,18 @@ export default function About() {
         }
       : {
           eyebrow: 'How it works',
-          title: 'How Ninja Card works after the first tap.',
+          title: 'How Ninja Card works after the first tap',
           subtitle: 'The flow is simple, and that is exactly why it works in real meetings.',
+          intro:
+            'What matters is not only that the card opens. What matters is what happens after that: the person saves you, sees your information, and has a reason to continue the conversation.',
           steps: [
-            { index: '01', title: 'Tap', text: 'It opens instantly.' },
-            { index: '02', title: 'Profile', text: 'It looks professional.' },
-            { index: '03', title: 'Contact', text: 'It is easy to save.' },
-            { index: '04', title: 'Interest', text: 'Samurai creates the next step.' },
+            { index: '01', title: 'Tap', text: 'The profile opens instantly.' },
+            { index: '02', title: 'Profile', text: 'It looks professional and clear.' },
+            { index: '03', title: 'Contact', text: 'It is easy to save on the phone.' },
+            { index: '04', title: 'Next step', text: 'Samurai keeps the conversation moving.' },
           ],
+          valueTitle: 'Why this works',
+          valuePoints: ['Less friction', 'Easier contact saving', 'Stronger follow-up'],
           videoEyebrow: 'See it in action',
           videoTitle: 'The video explains it better than a long paragraph.',
           videoText: 'You can see how someone moves from a tap to a profile, a saved contact, and a next step.',
@@ -75,7 +78,11 @@ export default function About() {
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[0.95fr,1.05fr]">
           <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-5">
-            <div className="grid gap-4 sm:grid-cols-2">
+            <div className="rounded-[1.5rem] border border-white/10 bg-black/20 p-5">
+              <p className="text-sm leading-7 text-gray-200">{content.intro}</p>
+            </div>
+
+            <div className="mt-4 grid gap-4 sm:grid-cols-2">
               {content.steps.map((step) => (
                 <div key={step.index} className="rounded-[1.5rem] border border-white/10 bg-black/20 p-4">
                   <div className="text-sm font-black uppercase tracking-[0.18em] text-orange">{step.index}</div>
@@ -83,6 +90,17 @@ export default function About() {
                   <p className="mt-2 text-sm leading-6 text-gray-300">{step.text}</p>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-4 rounded-[1.5rem] border border-white/10 bg-black/20 p-5">
+              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-orange">{content.valueTitle}</p>
+              <div className="mt-4 grid gap-3 sm:grid-cols-3">
+                {content.valuePoints.map((item) => (
+                  <div key={item} className="rounded-2xl border border-white/10 bg-white/[0.03] px-4 py-3 text-sm font-semibold text-gray-100">
+                    {item}
+                  </div>
+                ))}
+              </div>
             </div>
 
             <div className="mt-5 flex flex-col gap-3 sm:flex-row">
@@ -110,7 +128,8 @@ export default function About() {
                 <p className="text-xs font-semibold uppercase tracking-[0.18em] text-orange">{content.videoEyebrow}</p>
                 <h3 className="mt-2 text-xl font-black text-white">{content.videoTitle}</h3>
                 <p className="mt-2 text-sm leading-6 text-gray-200">{content.videoText}</p>
-                <div className="mt-4 flex flex-wrap gap-2">
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.18em] text-orange">{content.processTitle}</p>
+                <div className="mt-3 flex flex-wrap gap-2">
                   {content.process.map((item) => (
                     <span key={item} className="rounded-full border border-white/10 bg-black/20 px-3 py-2 text-xs font-semibold uppercase tracking-[0.14em] text-gray-200">
                       {item}
