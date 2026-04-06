@@ -6,6 +6,11 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --space-base: 1rem;
+  --space-phi: 1.618rem;
+  --space-phi-lg: 2.618rem;
+  --measure-copy: 38ch;
+  --measure-copy-wide: 52ch;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,6 +25,29 @@ body {
   color: rgb(var(--foreground-rgb));
   background-color: #05070b;
   overflow-x: hidden;
+}
+
+.phi-heading {
+  letter-spacing: -0.03em;
+  line-height: 0.96;
+}
+
+.phi-copy {
+  max-width: var(--measure-copy);
+  line-height: 1.62;
+}
+
+.phi-copy-wide {
+  max-width: var(--measure-copy-wide);
+  line-height: 1.62;
+}
+
+.phi-stack > * + * {
+  margin-top: var(--space-phi);
+}
+
+.phi-grid-gap {
+  gap: var(--space-phi);
 }
 
 .fade-in {

@@ -69,17 +69,17 @@ export default function About() {
           initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="mx-auto max-w-3xl text-center"
+          className="mx-auto max-w-3xl text-center phi-stack"
         >
           <p className="mb-3 text-xs font-semibold uppercase tracking-[0.28em] text-orange">{content.eyebrow}</p>
-          <h2 className="text-3xl font-black leading-tight sm:text-4xl">{content.title}</h2>
-          <p className="mt-4 text-sm leading-6 text-gray-300">{content.subtitle}</p>
+          <h2 className="phi-heading text-3xl font-black sm:text-4xl">{content.title}</h2>
+          <p className="phi-copy mx-auto text-sm text-gray-300">{content.subtitle}</p>
         </motion.div>
 
         <div className="mt-8 grid gap-6 lg:grid-cols-[0.95fr,1.05fr]">
           <div className="rounded-[2rem] border border-white/10 bg-white/[0.03] p-5">
             <div className="rounded-[1.5rem] border border-white/10 bg-black/20 p-5">
-              <p className="text-sm leading-7 text-gray-200">{content.intro}</p>
+              <p className="phi-copy-wide text-sm text-gray-200">{content.intro}</p>
             </div>
 
             <div className="mt-4 grid gap-4 sm:grid-cols-2">

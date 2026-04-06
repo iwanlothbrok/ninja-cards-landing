@@ -65,18 +65,18 @@ export const Hero: React.FC = () => {
 
       <div className="relative z-10 px-4 pb-14 pt-12 sm:pb-16 sm:pt-16 lg:px-8 lg:pt-16">
         <div className="mx-auto grid max-w-7xl gap-10 lg:min-h-[calc(100svh-8rem)] lg:grid-cols-[0.9fr,1.1fr] lg:items-center">
-          <div className="max-w-[38rem]">
+          <div className="max-w-[38rem] phi-stack">
             <p className="mb-4 inline-flex rounded-full border border-orange/30 bg-orange/10 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-orange sm:text-xs">
               {content.eyebrow}
             </p>
 
-            <h1 className="max-w-[34rem] text-4xl font-black leading-[0.94] text-white sm:text-5xl lg:text-[3.45rem] xl:text-[3.95rem]">
+            <h1 className="phi-heading max-w-[34rem] text-4xl font-black text-white sm:text-5xl lg:text-[3.45rem] xl:text-[3.95rem]">
               {content.title}
             </h1>
 
-            <p className="mt-5 max-w-[28rem] text-base leading-7 text-gray-200 sm:text-lg">{content.subtitle}</p>
+            <p className="phi-copy text-base text-gray-200 sm:text-lg">{content.subtitle}</p>
 
-            <div className="mt-7 flex flex-col gap-3 sm:flex-row">
+            <div className="flex flex-col gap-3 sm:flex-row">
               <a
                 href={buildPlanSignupUrl(locale, 'samurai')}
                 className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-orange via-amber-400 to-yellow-300 px-7 py-4 text-sm font-black text-black shadow-[0_14px_40px_rgba(245,158,11,0.3)] ring-2 ring-amber-200/30 transition-transform hover:scale-[1.03] sm:px-8 sm:text-base"
@@ -91,9 +91,9 @@ export const Hero: React.FC = () => {
               </Link>
             </div>
 
-            <p className="mt-6 max-w-[28rem] text-sm leading-6 text-gray-400">{content.proof}</p>
+            <p className="phi-copy text-sm text-gray-400">{content.proof}</p>
 
-            <div className="mt-8 grid max-w-[28rem] grid-cols-3 gap-4 border-t border-white/10 pt-4">
+            <div className="grid max-w-[28rem] grid-cols-3 gap-4 border-t border-white/10 pt-4">
               {content.microproof.map((item) => (
                 <div key={item.label} className="min-w-0">
                   <div className="text-xl font-black text-white sm:text-2xl">{item.value}</div>

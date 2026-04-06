@@ -25,6 +25,13 @@ const Navbar: React.FC = () => {
     setIsMenuOpen(false);
   }, [pathname]);
 
+  useEffect(() => {
+    document.body.style.overflow = isMenuOpen ? 'hidden' : '';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [isMenuOpen]);
+
   const desktopLinks = [
     { href: '/plans', label: t('menu.plans') },
     { href: '/features', label: t('menu.features') },
@@ -96,53 +103,68 @@ const Navbar: React.FC = () => {
             </div>
           </button>
 
-          {isMenuOpen ? (
-            <div className="absolute left-0 right-0 top-full mt-3 rounded-[1.5rem] border border-white/10 bg-gray-950/96 p-4 shadow-2xl lg:hidden">
-              <div className="mb-4 flex items-center justify-between">
-                <LangSwitcher setIsMenuOpen={setIsMenuOpen} />
-                <button
-                  onClick={() => setIsMenuOpen(false)}
-                  aria-label={t('aria.closeMenu')}
-                  className="rounded-full border border-white/10 px-3 py-1 text-sm text-white"
-                  title={t('aria.closeMenu')}
-                >
-                  {t('aria.closeMenu')}
-                </button>
-              </div>
-
-              <nav aria-label={t('aria.mainNav')}>
-                <ul className="space-y-2">
-                  {mobileLinks.map((link) => (
-                    <li key={link.href}>
-                      <Link
-                        className="block rounded-2xl px-4 py-3 text-sm font-medium text-white transition hover:bg-white/5"
-                        href={link.href}
-                      >
-                        {link.label}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </nav>
-
-              <div className="mt-4 grid gap-3 sm:grid-cols-2">
-                <a
-                  href={buildLoginUrl(locale)}
-                  className="rounded-full border border-white/15 px-4 py-3 text-center text-sm font-semibold text-white/90"
-                >
-                  {t('menu.login')}
-                </a>
-                <a
-                  href={buildPlansUrl(locale, 'samurai')}
-                  className="rounded-full bg-gradient-to-r from-amber-300 via-orange to-amber-500 px-4 py-3 text-center text-sm font-bold text-black"
-                >
-                  {primaryCta}
-                </a>
-              </div>
-            </div>
-          ) : null}
         </div>
       </div>
+
+      {isMenuOpen ? (
+        <div className="fixed inset-0 z-50 bg-black/72 backdrop-blur-md lg:hidden">
+          <div className="mx-auto flex h-full max-w-7xl flex-col px-4 pb-4 pt-24">
+            <div className="flex-1 overflow-y-auto rounded-[2rem] border border-white/10 bg-[#0b0f16] p-5 shadow-[0_28px_80px_rgba(0,0,0,0.45)]">
+              <div className="phi-stack">
+                <div className="flex items-center justify-between gap-4">
+                  <LangSwitcher setIsMenuOpen={setIsMenuOpen} />
+                  <button
+                    onClick={() => setIsMenuOpen(false)}
+                    aria-label={t('aria.closeMenu')}
+                    className="rounded-full border border-white/10 px-4 py-2 text-sm font-semibold text-white"
+                    title={t('aria.closeMenu')}
+                  >
+                    {t('aria.closeMenu')}
+                  </button>
+                </div>
+
+                <nav aria-label={t('aria.mainNav')}>
+                  <ul className="phi-stack">
+                    {mobileLinks.map((link) => (
+                      <li key={link.href}>
+                        <Link
+                          className="block rounded-[1.25rem] border border-white/10 bg-white/[0.03] px-5 py-4 text-base font-semibold text-white transition hover:bg-white/8"
+                          href={link.href}
+                        >
+                          {link.label}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </nav>
+
+                <div className="grid gap-3">
+                  <a
+                    href={buildPlansUrl(locale, 'samurai')}
+                    className="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-amber-300 via-orange to-amber-500 px-6 py-4 text-base font-black text-black shadow-[0_14px_36px_rgba(245,158,11,0.24)]"
+                  >
+                    {primaryCta}
+                  </a>
+                  <div className="grid gap-3 sm:grid-cols-2">
+                    <a
+                      href={buildLoginUrl(locale)}
+                      className="rounded-full border border-white/15 bg-white/[0.04] px-5 py-4 text-center text-sm font-semibold text-white/90"
+                    >
+                      {t('menu.login')}
+                    </a>
+                    <a
+                      href={buildPlansUrl(locale)}
+                      className="rounded-full border border-white/15 bg-white/[0.04] px-5 py-4 text-center text-sm font-semibold text-white/90"
+                    >
+                      {t('menu.plans')}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : null}
     </header>
   );
 };

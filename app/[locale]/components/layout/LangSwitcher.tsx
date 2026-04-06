@@ -30,7 +30,7 @@ export function LangSwitcher({ setIsMenuOpen }: { setIsMenuOpen: (v: boolean) =>
   const pathname = usePathname() ?? '/';
 
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex items-center gap-2">
       {locales.map((locale) => {
         const isActive = pathname.startsWith(`/${locale}`);
         const href = buildHrefForCurrentRoute(pathname);
@@ -41,20 +41,15 @@ export function LangSwitcher({ setIsMenuOpen }: { setIsMenuOpen: (v: boolean) =>
             href={href}
             locale={locale}
             aria-current={isActive ? 'page' : undefined}
-            className={`relative px-4 py-2 rounded-lg border text-sm uppercase tracking-widest font-bold transition-all duration-300 ${
+            className={`rounded-xl border px-3 py-2 text-sm font-bold uppercase tracking-[0.18em] transition-all duration-300 ${
               isActive
-                ? 'border-orange bg-gradient-to-r from-orange via-yellow-400 to-orange text-white shadow-[0_8px_16px_rgba(255,140,0,0.4)] scale-110 backdrop-blur-sm'
-                : 'border-orange/40 text-orange hover:border-orange/80 hover:bg-orange/5 hover:shadow-[0_4px_12px_rgba(255,140,0,0.2)] hover:scale-105'
+                ? 'border-orange bg-gradient-to-r from-orange via-yellow-400 to-orange text-white shadow-[0_8px_16px_rgba(255,140,0,0.28)]'
+                : 'border-orange/30 text-orange hover:border-orange/70 hover:bg-orange/5'
             }`}
             onClick={() => setIsMenuOpen(false)}
             style={{ minWidth: 50, textAlign: 'center' }}
           >
-            {isActive ? (
-              <span className="absolute -top-3 -right-3 bg-gradient-to-r from-orange to-yellow-400 text-white text-xs font-bold rounded-full px-2 py-1 shadow-lg animate-pulse">
-                *
-              </span>
-            ) : null}
-            <span className="drop-shadow-lg">{locale}</span>
+            <span>{locale}</span>
           </Link>
         );
       })}
