@@ -34,17 +34,12 @@ const Navbar: React.FC = () => {
 
   const desktopLinks = [
     { href: '/plans', label: t('menu.plans') },
-    { href: '/features', label: t('menu.features') },
-    { href: '/cards', label: t('menu.cards') },
     { href: '/contact', label: t('menu.contact') },
   ] as const;
 
   const mobileLinks = [
     { href: '/', label: t('menu.home') },
     { href: '/plans', label: t('menu.plans') },
-    { href: '/features', label: t('menu.features') },
-    { href: '/cards', label: t('menu.cards') },
-    { href: '/askedQuestions', label: t('menu.faq') },
     { href: '/contact', label: t('menu.contact') },
   ] as const;
 
@@ -146,17 +141,17 @@ const Navbar: React.FC = () => {
                     {primaryCta}
                   </a>
                   <div className="grid gap-3 sm:grid-cols-2">
+                    <Link
+                      href="/contact"
+                      className="rounded-full border border-white/15 bg-white/[0.04] px-5 py-4 text-center text-sm font-semibold text-white/90"
+                    >
+                      {t('menu.contact')}
+                    </Link>
                     <a
                       href={buildLoginUrl(locale)}
                       className="rounded-full border border-white/15 bg-white/[0.04] px-5 py-4 text-center text-sm font-semibold text-white/90"
                     >
                       {t('menu.login')}
-                    </a>
-                    <a
-                      href={buildPlansUrl(locale)}
-                      className="rounded-full border border-white/15 bg-white/[0.04] px-5 py-4 text-center text-sm font-semibold text-white/90"
-                    >
-                      {t('menu.plans')}
                     </a>
                   </div>
                 </div>

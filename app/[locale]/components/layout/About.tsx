@@ -111,7 +111,7 @@ export default function About() {
                 {content.primaryCta}
               </a>
               <Link
-                href="/features"
+                href="/plans"
                 className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/10 px-7 py-4 text-sm font-bold text-white transition hover:bg-white/15 sm:px-8 sm:text-base"
               >
                 {content.secondaryCta}
